@@ -5,10 +5,12 @@
 갤러리: https://pathcosmos.github.io/some-louvre-paintings/
 
 - `IMG_*.heic`: 원본 사진
-- `index.html`: 썸네일 갤러리 + 상세 보기 (`thumbs/` 480px, `web/` 1800px 사본 사용)
+- `index.html`: 썸네일 갤러리 + 상세 보기 + 작품 설명 (`thumbs/` 480px, `web/` 1800px 사본, `details.js` 사용)
 - `jpg/`: JPG 변환본, `순번-작가_작품명.jpg` 형식으로 이름 변경
 - `jpg/rename_map.csv`: 원본 → 변경 파일명 매핑 (최종본)
 - `jpg/rename_map.before-correction.csv`, `jpg/rename_map.backup.csv`: 수정 이전 매핑 기록
+- `details.js`: 작품별 상세 설명 데이터 (루브르 공식 기록 기준 메타 + 한국어 해설, 출처 포함)
+- `research/`: 설명 조사 원본(`notes/`), 루브르 기록 사본(`louvre/`), `details.js` 생성 스크립트 (`python3 research/build.py research details.js`)
 
 ## 작품 목록
 
@@ -19,7 +21,7 @@
 | 03 | IMG_1240 | Leonardo da Vinci | [Mona Lisa close](jpg/03-Leonardo-da-Vinci_Mona-Lisa-close.jpg) |
 | 04 | IMG_1241 | Raphael and Giulio Romano | [Isabel de Requesens](jpg/04-Raphael-and-Giulio-Romano_Isabel-de-Requesens.jpg) |
 | 05 | IMG_1242 | Fetti | [Guardian Angel](jpg/05-Fetti_Guardian-Angel.jpg) |
-| 06 | IMG_1243 | School of Pellegrini | [Diana and Endymion](jpg/06-School-of-Pellegrini_Diana-and-Endymion.jpg) |
+| 06 | IMG_1243 | Pellegrini | [Diana and Endymion](jpg/06-Pellegrini_Diana-and-Endymion.jpg) |
 | 07 | IMG_1244 | Carreno de Miranda and Rizi | [Foundation of the Trinitarian Order](jpg/07-Carreno-de-Miranda-and-Rizi_Foundation-of-the-Trinitarian-Order.jpg) |
 | 08 | IMG_1245 | Goya | [Young Woman with Fan](jpg/08-Goya_Young-Woman-with-Fan.jpg) |
 | 09 | IMG_1246 | Goya | [Marquesa de Santa Cruz](jpg/09-Goya_Marquesa-de-Santa-Cruz.jpg) |
@@ -27,7 +29,7 @@
 | 11 | IMG_1248 | Goya | [Disparate Other Laws for the People](jpg/11-Goya_Disparate-Other-Laws-for-the-People.jpg) |
 | 12 | IMG_1249 | Goya | [Disparate Queen of the Circus](jpg/12-Goya_Disparate-Queen-of-the-Circus.jpg) |
 | 13 | IMG_1250 | Goya | [Disparate What a Warrior](jpg/13-Goya_Disparate-What-a-Warrior.jpg) |
-| 14 | IMG_1251 | School of Gessi | [Virgin and Child](jpg/14-School-of-Gessi_Virgin-and-Child.jpg) |
+| 14 | IMG_1251 | Gessi | [Virgin and Child](jpg/14-Gessi_Virgin-and-Child.jpg) |
 | 15 | IMG_1252 | Reni | [Union of Drawing and Colour](jpg/15-Reni_Union-of-Drawing-and-Colour.jpg) |
 | 16 | IMG_1253 | Raphael | [Baldassare Castiglione](jpg/16-Raphael_Baldassare-Castiglione.jpg) |
 | 17 | IMG_1255 | Raphael | [Saint Michael Vanquishing Satan](jpg/17-Raphael_Saint-Michael-Vanquishing-Satan.jpg) |
@@ -52,10 +54,10 @@
 
 ## 표기 참고
 
-- 06, 14: 루브르 소장 기록상 귀속이 "École de"(화파)이므로 `School-of-` 표기.
+- 06, 14: 루브르 현재 귀속은 각각 Giovanni Antonio Pellegrini, Francesco Gessi 본인. 이전의 `School-of-` 표기는 루브르 기록의 지역 화파 분류("École de" + Italie 등)를 작가 귀속으로 잘못 읽은 것이어서 수정함. 14는 오랫동안 Guido Reni 작품으로 여겨졌음.
 - 25: 루브르 소장본은 David 공방 복제본(원작은 브뤼셀 벨기에 왕립미술관).
 - 10–13: Goya *Disparates* 판화의 동판 원판(루브르 Chalcographie 소장).
-- 18: 작가 귀속이 여러 차례 바뀐 작품. 현재 루브르 공식 귀속은 확인 필요.
+- 18: 작가 귀속이 여러 차례 바뀐 작품(로렌초 코스타, 16세기 프랑스 화파 등). 루브르 현재 귀속은 Fra Bartolomeo (RF 1945 9).
 
 ## 이용
 

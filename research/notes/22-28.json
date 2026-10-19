@@ -1,0 +1,470 @@
+[
+  {
+    "n": 22,
+    "file": "22-Drouais_Marius-at-Minturnae.jpg",
+    "current": {
+      "artist": "Jean-Germain Drouais",
+      "title": "Marius at Minturnae"
+    },
+    "photo_matches": true,
+    "photo_check_note": "액자 하단 명판(jpg/ 원본 확대): 'Germain-Jean DROUAIS / PARIS 1763 – ROME 1788 / Marius prisonnier à Minturnes'. 칼을 쥔 채 얼굴을 가리고 물러서는 병사와 팔을 뻗은 마리우스 구도 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010064837",
+      "inv": "INV 4143 (autre n°: L 3486)",
+      "title_fr": "Marius prisonnier à Minturnes.",
+      "attribution_fr": "Drouais, Germain-Jean (Paris 1763 – Rome 1788); École de France",
+      "date": "4e quart du XVIIIe siècle (1786)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 2,71 m ; L. 3,65 m (avec cadre : 3,05 × 3,98 m)",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Peint à Rome, envoi de 2e année de pensionnaire de l'Académie de France à Rome (1786); exposé au palais Mancini 1786; envoyé en France oct. 1786; hérité par la mère de l'artiste (1788), puis tante Marie-Jeanne Doré; acquis de celle-ci, 20/02/1816 (entrée – Collection de Louis XVIII). Restauré par H. M. Linard, 1973."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "선택: 루브르 기록과 현장 명판 모두 작가명을 'Germain-Jean Drouais'로 표기. 영어권 통용 표기는 'Jean-Germain Drouais'라 오류는 아니나, 루브르 표기를 따르려면 artist를 'Germain-Jean Drouais'로 변경 가능.",
+    "meta_ko": [
+      [
+        "제작",
+        "1786"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "271 × 365 cm"
+      ],
+      [
+        "소장번호",
+        "INV 4143"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "기원전 88년 정적들에게 쫓겨 민투르나이에 갇힌 로마 장군 가이우스 마리우스를 그렸다. 플루타르코스의 『마리우스 전』은 그를 처형하러 들어온 병사가 노장의 위엄에 눌려 끝내 손을 대지 못했다고 전한다. 화면은 칼을 든 채 얼굴을 가리고 물러서는 병사와 팔을 곧게 뻗은 노장의 대치로 짜여 있다.",
+      "드루에는 다비드의 초기 제자로 1784년 로마상을 받았고, 이 그림은 로마 프랑스 아카데미 기숙생 2년차 과제로 1786년 로마에서 완성되었다. 실물 크기 인물을 한 평면에 배치하고 명암 대비를 강하게 준 점에서 스승의 〈호라티우스 형제의 맹세〉를 잇는 작품으로 평가된다.",
+      "드루에는 1788년 로마에서 스물넷의 나이로 세상을 떠났다. 그림은 어머니와 이모의 손을 거쳐 1816년 루브르에 들어왔다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064837",
+        "used_for": "inventory, title, attribution, date, medium, dimensions, location, provenance (JSON record ark.json)"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Marius_à_Minturnes",
+        "used_for": "Plutarque 일화, 다비드의 제자·〈호라티우스〉와의 관계, 구도(실물 크기·한 평면·강한 명암) 평가 (2차 자료)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jean-Germain_Drouais",
+        "used_for": "생몰년월일(1763.11.25 파리–1788.2.13 로마), 1784 로마상, 다비드 초기 제자 (2차 자료)"
+      }
+    ],
+    "unverified": [
+      "플루타르코스 인용문과 병사의 출신(킴브리족/갈리아인)은 fr.wikipedia 요약 기준, 원전 번역 직접 대조 안 함",
+      "'스물넷' 나이는 en.wikipedia 생몰일(1763.11.25–1788.2.13)로 계산"
+    ],
+    "conflicts": [
+      "fr.wikipedia는 드루에가 1788년 파리에서 완성작을 공개했다고 서술하나, 루브르 기록은 1786년 로마 공개 → 1787년 파리(아카데미 심사, 어머니 집 전시)로 기록. body_ko는 루브르 기록 기준으로 작성하고 파리 공개 연도는 언급 생략."
+    ]
+  },
+  {
+    "n": 23,
+    "file": "23-David_The-Sabine-Women.jpg",
+    "current": {
+      "artist": "Jacques-Louis David",
+      "title": "The Intervention of the Sabine Women"
+    },
+    "photo_matches": true,
+    "photo_check_note": "명판에 'DAVID (Jacques Louis) 1748–1825' 및 사비니 여인 관련 제목 일부가 보임(썸네일 해상도로 전문 판독 불가). 중앙에서 팔을 벌린 흰옷 여인(헤르실리아), 방패를 든 나체 전사, 아이를 들어 올린 여인, 배경 성채 등 구도 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010065426",
+      "inv": "INV 3691 (autre n°: L 3710)",
+      "title_fr": "Les Sabines",
+      "attribution_fr": "David, Jacques-Louis (Paris 1748 – Bruxelles 1825); École de France",
+      "date": "4e quart du XVIIIe siècle (1799)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 3,85 m ; L. 5,22 m (avec cadre : 4,434 × 5,8 m)",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Œuvre entreprise hors commande; achevée automne 1799; exposition payante au Louvre à partir du 21/12/1799; vente simulée à J.-L. Delahaye 27/11/1819; achetée par la Maison du roi avec « Léonidas aux Thermopyles » (100 000 F au total) sur décision de Louis XVIII, 11/12/1819; musée du Luxembourg 1820–1824; au Louvre depuis le 7/01/1826. Signé « David fbat anno 1799 »."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1799"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "385 × 522 cm"
+      ],
+      [
+        "소장번호",
+        "INV 3691"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "로마인에게 납치된 사비니 여인들이 남편(로마인)과 아버지·형제(사비니인) 사이의 전투에 뛰어든 장면이다. 화면 중앙에서 로물루스의 아내 헤르실리아가 두 팔을 벌려 창을 겨눈 로물루스와 방패를 든 사비니 왕 타티우스를 가로막고, 주변 여인들은 아이를 내보이며 싸움을 멈추라고 호소한다.",
+      "주문 없이 다비드 스스로 시작한 작품으로, 구상은 혁명기 그가 뤽상부르 궁에 수감되었던 시기에 시작되었다. 1796년 루브르 안 작업실을 얻어 1799년 가을에 완성했고, 같은 해 12월 21일부터 입장료를 받는 단독 전시로 공개했다. 그림 맞은편에 큰 거울을 두어 관람객이 그림과 함께 자신을 비춰 보게 한 연출로도 알려져 있다. 서명 'David fbat anno 1799'는 타티우스 다리 사이의 돌 조각에 적혀 있다.",
+      "1819년 루이 18세 정부가 〈테르모필레의 레오니다스〉와 함께 사들였고, 뤽상부르 미술관을 거쳐 1826년 루브르로 옮겨졌다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065426",
+        "used_for": "inventory, title, attribution, date, medium, dimensions, location, provenance (JSON record ark.json)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Intervention_of_the_Sabine_Women",
+        "used_for": "헤르실리아·로물루스·타티우스 인물 식별, 전시장 거울 연출 (2차 자료)"
+      }
+    ],
+    "unverified": [
+      "명판 전문은 썸네일로 판독 불가(작가명만 확인)"
+    ],
+    "conflicts": [
+      "수감 시기: 루브르 기록은 '1794년 9월 뤽상부르 수감 중 구상'으로, en.wikipedia는 '1795년 5월 29일–8월 3일 뤽상부르 수감 중 구상'으로 서술(다비드는 두 차례 수감됨). body_ko는 연도를 특정하지 않음."
+    ]
+  },
+  {
+    "n": 24,
+    "file": "24-David_Coronation-of-Napoleon.jpg",
+    "current": {
+      "artist": "Jacques-Louis David",
+      "title": "The Coronation of Napoleon"
+    },
+    "photo_matches": true,
+    "photo_check_note": "관을 들어 올린 나폴레옹과 무릎 꿇은 조제핀, 오른쪽에 앉은 교황, 중앙 상단 관람석 구도 일치. 촬영 순서(IMG_1260–1268이 9분 내 연속 촬영)와 루브르 기록상 같은 702호실(Salle Daru)이므로 루브르 원작(INV 3699)으로 판단. 베르사유 복제본(1822 완성)이 아님. 단 명판은 썸네일로 판독 불가.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010065720",
+      "inv": "INV 3699 (autre n°: MR 1437)",
+      "title_fr": "Le Couronnement de l'empereur Napoléon Ier et de l'impératrice Joséphine dans la cathédrale Notre-Dame de Paris, le 2 décembre 1804.",
+      "attribution_fr": "David, Jacques-Louis (Paris 1748 – Bruxelles 1825); École de France; participation : Rouget, Georges (peintre) et Degotti, Ignazio Eugenio (peintre)",
+      "date": "1e quart du XIXe siècle (1807); inscription « 1806 & 1807. », signé « L. David. f.ebat. »",
+      "medium": "huile sur toile",
+      "dimensions": "H. 6,21 m ; L. 9,79 m",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Commandé par Napoléon Ier en septembre 1804 (entrée – Collection de Napoléon Ier); peint du 21/12/1805 à mi-novembre 1807 dans l'ancienne chapelle du collège de Cluny; exposé au Louvre (Salon carré) à partir de février 1808; inscrit à l'inventaire 1824; château de Versailles 1837–1889; Palais des beaux-arts 1889; au Louvre depuis août 1890."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1807 (1805년 12월–1807년 11월 제작)"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "621 × 979 cm"
+      ],
+      [
+        "소장번호",
+        "INV 3699"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "1804년 12월 2일 파리 노트르담 대성당에서 열린 나폴레옹 1세의 대관식을 그렸다. 다비드는 스스로 관을 쓴 황제가 무릎 꿇은 조제핀에게 황후의 관을 씌우려는 순간을 골라 두 번의 대관을 한 장면에 담았고, 교황 피우스 7세는 그 뒤에 앉아 축복의 손짓을 한다. 실제 식에 참석하지 않은 황제의 어머니가 중앙 관람석에 그려져 있다.",
+      "나폴레옹이 1804년 9월 주문했으며, 다비드는 1805년 12월부터 1807년 11월까지 옛 클뤼니 학교 예배당에 마련한 작업실에서 건축 배경을 맡은 데고티, 인물을 도운 제자 루제와 함께 그렸다. 1808년 2월 루브르에서 처음 공개되었다.",
+      "복고왕정기에는 공개되지 않다가 1837년부터 베르사유 궁에 걸렸고 1890년 루브르로 옮겨졌다. 베르사유 궁에 있는 같은 주제의 대형 그림은 다비드가 1822년 브뤼셀 망명 중 완성한 별도의 복제본이다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065720",
+        "used_for": "inventory, title, attribution, date, medium, dimensions, location, provenance (JSON record ark.json)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Coronation_of_Napoleon",
+        "used_for": "황제의 어머니(레티치아)가 불참했으나 그려진 점, 베르사유 복제본(1808 착수, 1822 브뤼셀에서 완성, 1947 반환 후 베르사유) (2차 자료)"
+      }
+    ],
+    "unverified": [
+      "'같은 크기'의 베르사유 복제본: en.wikipedia의 'full-size replica' 서술 기준, 베르사유 공식 기록 미확인",
+      "명판 텍스트 판독 불가"
+    ],
+    "conflicts": [
+      "완성 시점: 루브르 기록은 1807년 11월 완성·1808년 1월 일부 수정, en.wikipedia는 '1808년 1월 완성'으로 서술. 화면 서명은 '1806 & 1807'."
+    ]
+  },
+  {
+    "n": 25,
+    "file": "25-Workshop-of-David_Death-of-Marat.jpg",
+    "current": {
+      "artist": "Workshop of Jacques-Louis David",
+      "title": "The Death of Marat"
+    },
+    "photo_matches": true,
+    "photo_check_note": "나무 상자 앞면 글귀가 'N'AYANT PU ME CORROMPRE / ILS M'ONT ASSASSINÉ'로 읽힘. 루브르 기록상 이 문구가 원작(브뤼셀, 'À MARAT, DAVID' 헌사)과 구별되는 루브르 복제본(RF 1945-2)의 유일한 차이점이므로 루브르 소장 공방 복제본임이 확인됨. 촬영일(파일 메타데이터 2026-10-10)은 2025–26 루브르 다비드 특별전(브뤼셀 원작 대여) 이후이기도 함.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010059773",
+      "inv": "RF 1945 2 (텍스트상 « R.F. 1945-2 »)",
+      "title_fr": "Marat assassiné, le 13 juillet 1793",
+      "attribution_fr": "Atelier de David, Jacques-Louis (Paris 1748 – Bruxelles 1825); École de France",
+      "date": "Fin du XVIIIe siècle - début du XIXe siècle (1793 - 1794)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 1,625 m ; L. 1,3 m (avec cadre : 1,9 × 1,56 m)",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Peint à Paris par un élève et assistant de David, entre oct. 1793 et juin 1794; conservé par David; par héritage à sa fille la baronne Jeanin, puis à ses descendants; légué au Louvre par le baron Eugène Jeanin (1860-1944) en 1945."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1793–1794"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "162.5 × 130 cm"
+      ],
+      [
+        "소장번호",
+        "RF 1945-2"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "1793년 7월 13일 욕조 안에서 살해된 혁명가 장폴 마라를 그린 그림이다. 다비드가 그려 그해 11월 14일 국민공회에 헌정한 원작은 현재 브뤼셀 벨기에 왕립미술관에 있고, 루브르의 그림은 1793년 10월부터 이듬해 6월 사이 다비드의 제자이자 조수가 같은 크기로 옮겨 그린 공방 복제본이다.",
+      "원작과의 유일한 차이는 나무 상자에 적힌 글귀다. 원작의 헌사 'À Marat, David' 대신 '나를 매수할 수 없어 그들은 나를 죽였다(N'ayant pu me corrompre, ils m'ont assassiné)'라는 문장이 들어가 있다.",
+      "이 복제본은 원작, 또 다른 복제본과 함께 다비드가 작업실에 두고 있었고, 그의 딸 집안에 대대로 전해지다 1945년 후손 외젠 자냉 남작의 유증으로 루브르에 들어왔다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010059773",
+        "used_for": "inventory, attribution 'Atelier de', date, dimensions, replica vs original (Bruxelles), inscription difference, provenance, location"
+      },
+      {
+        "url": "https://www.lalibre.be/culture/arts/2025/12/03/pour-david-revolutionnaire-dans-son-art-comme-dans-sa-vie-peindre-cest-agir-DAXEQZCWP5EK3AH44FMWRO6XJI/",
+        "used_for": "2025 루브르 다비드 200주기 전시에 브뤼셀 원작이 대여되었다는 사실(photo_check_note 맥락용, body 미사용)"
+      }
+    ],
+    "unverified": [
+      "'욕조 안에서' 살해: 작품 화면(욕조)과 루브르 제목('assassiné, le 13 juillet 1793')에 근거한 서술이며 루브르 기록 본문에 '욕조' 문구는 없음",
+      "'증손' 관계는 루브르 기록의 상속 경로(딸 Pauline → 아들 Louis-Charles → 그 아들 Eugène)에서 추론"
+    ],
+    "conflicts": []
+  },
+  {
+    "n": 26,
+    "file": "26-David_Oath-of-the-Horatii.jpg",
+    "current": {
+      "artist": "Jacques-Louis David",
+      "title": "Oath of the Horatii"
+    },
+    "photo_matches": true,
+    "photo_check_note": "명판 'DAVID (Jacques Louis) ...' 확인(제목은 판독 불가). 세 아치 앞 세 형제와 칼을 든 아버지, 오른쪽 슬퍼하는 여인들 구도 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062239",
+      "inv": "INV 3692 (autre n°: MR 1432)",
+      "title_fr": "Le serment des Horaces, entre les mains de leur père",
+      "attribution_fr": "David, Jacques-Louis (Paris 1748 – Bruxelles 1825); École de France",
+      "date": "4e quart du XVIIIe siècle (1784); signé « L. David faciebat/ ROMAE anno/ MDCCLXXXIV. »",
+      "medium": "huile sur toile",
+      "dimensions": "H. 3,3 m ; L. 4,25 m (avec cadre : 3,85 × 4,7 m)",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Commandé par Louis XVI par l'intermédiaire du comte d'Angiviller fin 1781/début 1782 (sujet initial « Horace vainqueur »); peint à Rome, achevé juillet 1785; Salon de 1785 n°103; atelier de David au Louvre jusqu'en 1791; Salon de 1791; galerie du Sénat au palais du Luxembourg à partir du 29/01/1804; déplacé au Louvre le 7/01/1826 (entrée – Collection de Louis XVI)."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1784 (서명 연도, 1785년 완성)"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "330 × 425 cm"
+      ],
+      [
+        "소장번호",
+        "INV 3692"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "로마와 알바롱가의 분쟁을 대표 결투로 끝내기로 하자, 로마 쪽 호라티우스 삼형제가 아버지가 내민 칼 앞에서 승리 아니면 죽음을 맹세하는 장면이다. 리비우스 등 고대 기록에 이 맹세 장면은 따로 나오지 않으며 다비드가 고안한 순간으로 알려져 있다. 오른쪽에는 상대편 쿠리아티우스 형제와 약혼·혼인으로 얽힌 여인들이 고개를 떨군 채 슬퍼한다.",
+      "곧게 뻗은 남성들의 팔과 다리가 배경 기둥과, 웅크린 여인들의 곡선이 아치와 호응하도록 짜인 구성이 특징이다.",
+      "루이 16세가 왕실 건축총감 당지빌레르를 통해 주문했는데, 다비드는 처음 정해진 주제와 화면 크기를 바꾸고 로마에 가서 그림을 완성했다. 1785년 로마 작업실에서 먼저 공개한 뒤 그해 파리 살롱에 출품했다. 이후 뤽상부르 궁 원로원 화랑을 거쳐 1826년 루브르로 옮겨졌다. 미국 톨레도 미술관에 다비드가 그린 반복작이 있다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062239",
+        "used_for": "inventory, title, attribution, date, medium, dimensions, location, provenance (JSON record ark.json)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oath_of_the_Horatii",
+        "used_for": "주제(호라티우스·쿠리아티우스, 리비우스 출전), 맹세 장면이 다비드의 고안이라는 점, 여인들의 관계(카밀라·사비나), 직선-기둥/곡선-아치 구성 (2차 자료)"
+      }
+    ],
+    "unverified": [
+      "톨레도 반복작의 크기·제작 연도는 확인하지 않음(루브르 기록은 'répétition (Toledo Museum of Art)'만 언급)"
+    ],
+    "conflicts": [
+      "제작 연도: 루브르 기록의 날짜 필드와 서명은 1784, 같은 기록의 이력은 '1785년 상반기 로마에서 제작, 1785년 7월 완성'. meta_ko는 두 정보를 병기.",
+      "주문 경로: 루브르는 '당지빌레르(d'Angiviller)를 통해', en.wikipedia는 'Charles-Claude Flahaut de la Billaderie'(=당지빌레르 백작의 본명)라 서술 — 동일 인물로 판단되나 직접 대조는 안 함."
+    ]
+  },
+  {
+    "n": 27,
+    "file": "27-David_Madame-Recamier.jpg",
+    "current": {
+      "artist": "Jacques-Louis David",
+      "title": "Madame Récamier"
+    },
+    "photo_matches": true,
+    "photo_check_note": "명판 'DAVID ...' 확인. 고대풍 침상에 흰 드레스 차림으로 기댄 여인, 왼쪽 키 큰 촛대, 맨발과 발받침 구도 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010059215",
+      "inv": "INV 3708 (autre n°: C 124)",
+      "title_fr": "Portrait de Juliette Récamier, née Bernard (1777-1849)",
+      "attribution_fr": "David, Jacques-Louis (Paris 1748 – Bruxelles 1825); École de France",
+      "date": "Fin du XVIIIe siècle - début du XIXe siècle (1800)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 1,74 m ; L. 2,44 m",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Commandé par le modèle et son mari; commencé printemps 1800, laissé non-fini; resté chez l'artiste jusqu'à sa mort; vente après décès avril 1826 (n°15), adjugé 6 180 F à Charles Lenormant; vendu par lui à la Maison du roi le 14/12/1826; entré au Louvre le 8/01/1827 (entrée – Collection de Charles X). Restauré par Nathalie Pincas au C2RMF, nov. 2024–2025."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "선택: 루브르 공식 제목은 'Portrait de Juliette Récamier, née Bernard (1777-1849)'. 영어 'Portrait of Madame Récamier'로 바꾸는 것도 가능하나 현 표기도 통용됨.",
+    "meta_ko": [
+      [
+        "제작",
+        "1800"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "174 × 244 cm"
+      ],
+      [
+        "소장번호",
+        "INV 3708"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "쥘리에트 레카미에(1777–1849)가 고대풍 침상에 기대어 고개를 돌린 모습이다. 장식을 거의 없앤 실내에 흰 드레스와 맨발, 키 큰 청동 촛대만을 두었다. 그녀가 기댄 형태의 소파는 오늘날 그녀의 이름을 따 '레카미에'라 불린다.",
+      "모델 부부의 주문으로 1800년 봄에 시작했으나 그해 말 미완성으로 멈췄다. 완성된 부분은 얼굴뿐이고 옷과 가구, 배경은 붓질이 거친 상태로 남았다. 작업이 지연되는 사이 레카미에가 다비드의 제자 제라르에게 따로 초상을 맡긴 일이 중단의 배경으로 거론된다.",
+      "그림은 다비드가 세상을 떠날 때까지 그의 소유였고, 1826년 유작 경매에서 낙찰된 뒤 같은 해 왕실이 사들여 1827년 루브르에 들어왔다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010059215",
+        "used_for": "inventory, title, attribution, date, medium, dimensions, location, provenance (JSON record ark.json)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Portrait_of_Madame_Récamier",
+        "used_for": "얼굴만 완성된 상태, 제라르 초상 의뢰 및 중단 배경, '레카미에' 소파 명칭, 청동 촛대 (2차 자료)"
+      }
+    ],
+    "unverified": [
+      "미완성 원인은 en.wikipedia도 'may have'로 서술하는 추정 → body_ko에서 '거론된다'로 표현"
+    ],
+    "conflicts": []
+  },
+  {
+    "n": 28,
+    "file": "28-Gerard_Marquise-Visconti.jpg",
+    "current": {
+      "artist": "François Gérard",
+      "title": "Portrait of the Marquise Visconti"
+    },
+    "photo_matches": true,
+    "photo_check_note": "액자 명판(jpg/ 원본 확대): 'GÉRARD (François) Baron 1770 † 1837 / PORTRAIT DE LA MARQUISE VISCONTI'. 풍경 속 흰 드레스의 전신 입상 구도 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010059691",
+      "inv": "RF 520",
+      "title_fr": "Portrait de Giuseppa Visconti, marquise de Borgoratto (1760-1840)",
+      "attribution_fr": "Gérard, François (Rome 1770 – Paris 1837); École de France",
+      "date": "1e quart du XIXe siècle (vers 1809 - 1810)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 2,265 m ; L. 1,46 m",
+      "location": "Denon, [Peint] Salle 702 - Salle Daru, néoclassicisme (Aile Denon, Niveau 1)",
+      "acquisition": "Commandé par le modèle vers 1809; Salon de 1810 n°354 (« Madame V*** (portrait en pied) »); coll. du modèle jusqu'en 1840, puis par héritage au comte da Porto; légué au Louvre par la comtesse da Porto (née Stéphanie de Nicolaÿ) en 1886, accepté par décret du 26/03/1888. Restauré par Christian Chatellier au C2RMF en 2025."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "선택: 루브르 공식 제목은 'Portrait de Giuseppa Visconti, marquise de Borgoratto (1760-1840)'. 현 영어 제목은 현장 명판('Portrait de la Marquise Visconti')과 일치하므로 유지 가능. 정밀 표기를 원하면 'Portrait of Giuseppa Visconti, Marquise de Borgoratto'.",
+    "meta_ko": [
+      [
+        "제작",
+        "1809–1810년경"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "226.5 × 146 cm"
+      ],
+      [
+        "소장번호",
+        "RF 520"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "카르카노 가문 출신으로 비스콘티 후작과 결혼한 주세파 비스콘티(1760–1840)의 전신 초상이다. 흰 드레스 차림의 모델이 숲과 먼 들판을 배경으로 돌 받침에 몸을 기대고 서 있다.",
+      "1809년경 모델 자신이 제라르에게 주문했고, 1810년 살롱에 'V*** 부인(전신 초상)'이라는 이름으로 출품되었다.",
+      "모델이 세상을 떠난 뒤 손자 다 포르토 백작 집안에 전해졌고, 1886년 백작 부인의 유증으로 루브르 소장품이 되었다. 2025년 C2RMF에서 캔버스와 틀을 보존 처리했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010059691",
+        "used_for": "inventory, title, attribution, date, medium, dimensions, location, provenance (JSON record ark.json)"
+      },
+      {
+        "url": "https://www.gazette-drouot.com/en/lots/25740310-francois-gerard-dit-baron---",
+        "used_for": "모델 출신(밀라노 카르카노 가문, 비스콘티 후작과 혼인), 베르티에와의 관계 (경매 도록 텍스트 — 2차 자료, 신뢰도 중간)"
+      }
+    ],
+    "unverified": [
+      "베르티에와의 관계 및 카르카노 가문 출신: 루브르 기록에는 'née Carcano'만 있고 베르티에 언급 없음. 경매 도록(Drouot) 1건 기반이므로 삭제하거나 추가 학술 출처 확인 필요",
+      "베르티에 관계의 시기·기간은 미확인",
+      "배경 묘사(숲·들판·돌 받침)는 사진 관찰 기반"
+    ],
+    "conflicts": [
+      "후작 칭호 철자: 루브르 'Borgoratto', 리비우 갤러리 등 일부 자료 'Borgaroto'. 루브르 표기 사용."
+    ]
+  }
+]

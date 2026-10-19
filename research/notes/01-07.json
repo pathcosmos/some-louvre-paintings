@@ -1,0 +1,476 @@
+[
+  {
+    "n": 1,
+    "file": "01-Cimabue_Maesta.jpg",
+    "current": {
+      "artist": "Cimabue",
+      "title": "Maestà (Madonna and Child in Majesty Surrounded by Angels)"
+    },
+    "photo_matches": true,
+    "photo_check_note": "박공형(gable) 상단, 금지 배경, 옥좌의 성모자와 좌우 각 3명(총 6명)의 천사, 원형 메달리온이 들어간 원래 액자 — 루브르 기록의 묘사(six anges, 26개 메달리온 액자)와 일치. 라벨은 보이지 않음.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010064463",
+      "inv": "INV 254 (autre n°: MR 159)",
+      "title_fr": "La Vierge et l'Enfant en majesté entourés de six anges (Maestà)",
+      "attribution_fr": "Cimabue (Cenni di Pepe, dit) — Attribution actuelle; École: Italie",
+      "date": "4e quart du XIIIe siècle (1275 - 1300)",
+      "medium": "tempera sur fond d'or sur bois (peuplier)",
+      "dimensions": "Hauteur 4,27 m; Largeur 2,8 m",
+      "location": "Denon, [Peint] Salle 708 - Salon Carré, Niveau 1",
+      "acquisition": "conquête militaire, 10/1812; historique: Pise, San Francesco, jusqu'en 1810 ; Pise, Camposanto, jusqu'en 1812 ; Paris, musée du Louvre, depuis 1812"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1275–1300 (13세기 4/4분기)"
+      ],
+      [
+        "재료",
+        "목판(포플러)에 금지 바탕 템페라"
+      ],
+      [
+        "크기",
+        "427 × 280 cm"
+      ],
+      [
+        "소장번호",
+        "INV 254"
+      ],
+      [
+        "전시실",
+        "드농관 708호실 (Salon Carré)"
+      ]
+    ],
+    "body_ko": [
+      "옥좌에 앉은 성모가 아기 예수를 안고 있고, 양옆에 여섯 천사가 세 단으로 늘어선 구성의 대형 제단화다. 금박 바탕 위에 템페라로 그렸으며, 원래의 액자에는 그리스도와 대천사, 예언자, 열두 사도, 프란치스코회 성인들을 담은 스물여섯 개의 작은 원형 그림이 둘러져 있다.",
+      "피사의 산 프란체스코 성당에 있던 작품으로, 1810년 캄포산토로 옮겨졌다가 1812년 나폴레옹 시기의 전리품으로 파리에 들어왔다. 루브르는 2024년 복원을 마쳤고, 덧칠에 가려졌던 색채와 세부가 드러났다. 복원 후 2025년 루브르의 치마부에 전시에서 중심 작품으로 소개되었다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064463",
+        "used_for": "모든 메타데이터, 도상 묘사(여섯 천사, 26개 메달리온 액자), 소장 이력(피사→1812 루브르), 2025 전시 기록"
+      },
+      {
+        "url": "https://www.louvre.fr/en/exhibitions-and-events/exhibitions/a-new-look-at-cimabue",
+        "used_for": "2024년 복원 완료, 덧칠 아래 색채·세부 확인, 2025년 전시(1/22–5/12)"
+      }
+    ],
+    "unverified": [
+      "촬영 시점의 전시 위치(708호실 vs 2025 전시 기간 717호실)는 사진만으로 판단 불가"
+    ],
+    "conflicts": [
+      "전시 프랑스어 제목: 루브르 레코드 exhibition 필드는 'Aux origines de la peinture moderne en Occident', bibliography는 'Aux origines de la peinture italienne' — body에서는 전시 제목을 쓰지 않음"
+    ]
+  },
+  {
+    "n": 2,
+    "file": "02-Leonardo-da-Vinci_Mona-Lisa-wide.jpg",
+    "current": {
+      "artist": "Leonardo da Vinci",
+      "title": "Mona Lisa"
+    },
+    "note": "02 = 방탄유리 진열장 전체가 보이는 전경 사진, 03 = 같은 작품 근접 사진",
+    "photo_matches": true,
+    "photo_check_note": "유리 진열장 안 금색 액자의 모나리자, 앞쪽 나무 난간 — 711호실 전시 형태와 일치. 라벨 미노출.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "inv": "INV 779 (autre n°: MR 316)",
+      "title_fr": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa",
+      "attribution_fr": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) — Attribution actuelle; École: Italie",
+      "date": "1e quart du XVIe siècle (1503 - 1519)",
+      "medium": "huile sur bois (peuplier)",
+      "dimensions": "Hauteur 0,794 m; Largeur 0,534 m (avec accessoire: 1,01 m × 0,77 m)",
+      "location": "Denon, [Peint] Salle 711 - Salle de la Joconde (Salle des Etats), Niveau 1",
+      "acquisition": "ancienne collection royale/de la Couronne (date 1793 dans le champ acquisition); provenance: commencé vers 1503 sans doute pour Francesco del Giocondo, conservé par Léonard jusqu'à sa mort, très probablement acquis par François Ier en 1518"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1503–1519 (16세기 1/4분기)"
+      ],
+      [
+        "재료",
+        "목판(포플러)에 유채"
+      ],
+      [
+        "크기",
+        "79.4 × 53.4 cm"
+      ],
+      [
+        "소장번호",
+        "INV 779"
+      ],
+      [
+        "전시실",
+        "드농관 711호실 (Salle des États, 모나리자 전시실)"
+      ]
+    ],
+    "body_ko": [
+      "피렌체의 비단 상인 프란체스코 델 조콘도의 아내 리자 게라르디니를 그린 초상이다. 루브르는 1503년 무렵 남편의 주문으로 시작된 것으로 본다. 1503년 10월 아고스티노 베스푸치가 책 여백에 '리자 델 조콘도의 얼굴'을 언급한 메모가 2005년 하이델베르크에서 발견되면서, 제작 시기와 바사리(1550)가 전한 모델의 신원이 함께 뒷받침되었다.",
+      "레오나르도는 그림을 주문자에게 넘기지 않고 생애 끝까지 곁에 두며 손질했고, 그가 세상을 떠났을 때도 완성되지 않은 상태였다. 프랑스 왕 프랑수아 1세가 1518년 무렵 이 그림을 손에 넣은 것으로 추정되며, 이후 왕실 소장품을 거쳐 루브르로 들어왔다. '라 조콩드'라는 프랑스어 이름은 남편의 성 조콘도에서 왔다. 현재 드농관 711호실(Salle des États)에 걸려 있다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+        "used_for": "모든 메타데이터, 주문·제작 경위, 베스푸치 메모(1503/2005 발견), 바사리 기록, 미완성·프랑수아 1세 취득, 명칭 유래 (Louvre JSON record, objectHistory 필드)"
+      },
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062370.json",
+        "used_for": "동일 레코드의 JSON 원문 (직접 조회)"
+      }
+    ],
+    "unverified": [
+      "'1518년 무렵 취득'은 루브르 기록상 'très probablement'(매우 개연성 높음) — 확정 사실 아님, body에 '추정'으로 표기"
+    ],
+    "conflicts": [
+      "루브르 acquisitionDetails 날짜는 1793(왕실 컬렉션의 국가 귀속 시점으로 보임 — 추정)인 반면 objectHistory는 1518년경 프랑수아 1세 취득을 서술. 두 날짜의 의미가 다름"
+    ]
+  },
+  {
+    "n": 3,
+    "file": "03-Leonardo-da-Vinci_Mona-Lisa-close.jpg",
+    "current": {
+      "artist": "Leonardo da Vinci",
+      "title": "Mona Lisa"
+    },
+    "note": "02 = 방탄유리 진열장 전체가 보이는 전경 사진, 03 = 같은 작품 근접 사진",
+    "photo_matches": true,
+    "photo_check_note": "02와 같은 작품의 근접 사진(액자와 화면 중심). 라벨 미노출.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "inv": "INV 779 (autre n°: MR 316)",
+      "title_fr": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa",
+      "attribution_fr": "Léonard de Vinci (Leonardo di ser Piero da Vinci, dit Leonardo da Vinci) — Attribution actuelle; École: Italie",
+      "date": "1e quart du XVIe siècle (1503 - 1519)",
+      "medium": "huile sur bois (peuplier)",
+      "dimensions": "Hauteur 0,794 m; Largeur 0,534 m (avec accessoire: 1,01 m × 0,77 m)",
+      "location": "Denon, [Peint] Salle 711 - Salle de la Joconde (Salle des Etats), Niveau 1",
+      "acquisition": "ancienne collection royale/de la Couronne (date 1793 dans le champ acquisition); provenance: commencé vers 1503 sans doute pour Francesco del Giocondo, conservé par Léonard jusqu'à sa mort, très probablement acquis par François Ier en 1518"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1503–1519 (16세기 1/4분기)"
+      ],
+      [
+        "재료",
+        "목판(포플러)에 유채"
+      ],
+      [
+        "크기",
+        "79.4 × 53.4 cm"
+      ],
+      [
+        "소장번호",
+        "INV 779"
+      ],
+      [
+        "전시실",
+        "드농관 711호실 (Salle des États, 모나리자 전시실)"
+      ]
+    ],
+    "body_ko": [
+      "피렌체의 비단 상인 프란체스코 델 조콘도의 아내 리자 게라르디니를 그린 초상이다. 루브르는 1503년 무렵 남편의 주문으로 시작된 것으로 본다. 1503년 10월 아고스티노 베스푸치가 책 여백에 '리자 델 조콘도의 얼굴'을 언급한 메모가 2005년 하이델베르크에서 발견되면서, 제작 시기와 바사리(1550)가 전한 모델의 신원이 함께 뒷받침되었다.",
+      "레오나르도는 그림을 주문자에게 넘기지 않고 생애 끝까지 곁에 두며 손질했고, 그가 세상을 떠났을 때도 완성되지 않은 상태였다. 프랑스 왕 프랑수아 1세가 1518년 무렵 이 그림을 손에 넣은 것으로 추정되며, 이후 왕실 소장품을 거쳐 루브르로 들어왔다. '라 조콩드'라는 프랑스어 이름은 남편의 성 조콘도에서 왔다. 현재 드농관 711호실(Salle des États)에 걸려 있다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+        "used_for": "모든 메타데이터, 주문·제작 경위, 베스푸치 메모(1503/2005 발견), 바사리 기록, 미완성·프랑수아 1세 취득, 명칭 유래 (Louvre JSON record, objectHistory 필드)"
+      },
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062370.json",
+        "used_for": "동일 레코드의 JSON 원문 (직접 조회)"
+      }
+    ],
+    "unverified": [
+      "'1518년 무렵 취득'은 루브르 기록상 'très probablement'(매우 개연성 높음) — 확정 사실 아님, body에 '추정'으로 표기"
+    ],
+    "conflicts": [
+      "루브르 acquisitionDetails 날짜는 1793(왕실 컬렉션의 국가 귀속 시점으로 보임 — 추정)인 반면 objectHistory는 1518년경 프랑수아 1세 취득을 서술. 두 날짜의 의미가 다름"
+    ]
+  },
+  {
+    "n": 4,
+    "file": "04-Raphael-and-Giulio-Romano_Isabel-de-Requesens.jpg",
+    "current": {
+      "artist": "Raphael and Giulio Romano",
+      "title": "Portrait of Isabel de Requesens"
+    },
+    "photo_matches": true,
+    "photo_check_note": "붉은 벨벳 드레스와 붉은 모자, 왼쪽 배경의 아치 너머 건물 — collections.louvre.fr 레코드 이미지(0000135587_OG.JPG)를 내려받아 직접 대조, 일치. 라벨 미노출.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010066006",
+      "inv": "INV 612 (autre n°: MR 434)",
+      "title_fr": "Portrait de Dona Isabel de Requesens, vice-reine de Naples, dit longtemps Portrait de Jeanne d'Aragon (1550-1577)",
+      "attribution_fr": "Santi, Raffaello, dit Raphaël; Giulio Romano (Giulio Pippi, dit aussi Jules Romain) — Attribution actuelle; École: Italie",
+      "date": "1e quart du XVIe siècle (1518)",
+      "medium": "huile sur toile (transposition (de bois sur toile))",
+      "dimensions": "Hauteur 1,2 m; Largeur 0,95 m (avec accessoire: 1,37 m × 1,59 m)",
+      "location": "Denon, [Peint] Salle 712 - Grande Galerie (Tribune), Niveau 1",
+      "acquisition": "ancienne collection royale/de la Couronne, 1518; Collection de François Ier, offert en 1518 par le cardinal Bibbiena"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1518"
+      ],
+      [
+        "재료",
+        "캔버스에 유채 (목판에서 캔버스로 옮김)"
+      ],
+      [
+        "크기",
+        "120 × 95 cm"
+      ],
+      [
+        "소장번호",
+        "INV 612"
+      ],
+      [
+        "전시실",
+        "드농관 712호실 (Grande Galerie)"
+      ]
+    ],
+    "body_ko": [
+      "나폴리 부왕 라몬 데 카르도나의 아내 이사벨 데 레케센스의 초상이다. 교황 레오 10세 측의 주문으로 1518년 제작되어 프랑스 왕 프랑수아 1세에게 선물로 보내진 것으로 알려져 있으며, 이후 프랑스 왕실 소장품이 되었다.",
+      "오랫동안 모델은 아라곤의 조반나로 알려졌고, 루브르의 공식 제목에도 그 옛 이름이 함께 적혀 있다. 이후 연구를 통해 이사벨 데 레케센스로 다시 비정되었다. 제자 줄리오 로마노의 참여가 전해지며, 루브르는 라파엘로와 줄리오 로마노를 함께 작가로 표기한다. 원래 목판에 그렸으나 이후 캔버스로 옮겨졌다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010066006",
+        "used_for": "메타데이터, 공식 제목(옛 명칭 '잔 다라공' 포함), 공동 귀속, 1518 비비에나 추기경 증정·프랑수아 1세 소장, 목판→캔버스 전사"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Portrait_of_Do%C3%B1a_Isabel_de_Requesens_y_Enr%C3%ADquez_de_Cardona-Anglesola",
+        "used_for": "(2차) 레오 10세를 대신한 주문, 라몬 데 카르도나(나폴리 부왕), 1997년 Michael P. Fritz의 모델 재비정, 바사리의 줄리오 로마노 언급"
+      }
+    ],
+    "unverified": [
+      "레오 10세 대리 주문·1997년 재비정·바사리 언급은 Wikipedia(2차 자료)만으로 확인 — 루브르 레코드 본문에는 해당 서술 없음",
+      "라파엘로/줄리오 로마노의 구체적 분담(얼굴만 라파엘로 등)은 출처 간 서술 차이가 있어 body에서 제외",
+      "목판→캔버스 전사 시기(16세기 Primaticcio vs 18세기)는 미확정이라 body에서 제외"
+    ],
+    "conflicts": [
+      "루브르 제목의 '(1550-1577)' 부분의 의미가 불명확함 — 루브르 표기 그대로 기록, 확인 필요"
+    ]
+  },
+  {
+    "n": 5,
+    "file": "05-Fetti_Guardian-Angel.jpg",
+    "current": {
+      "artist": "Domenico Fetti",
+      "title": "The Guardian Angel"
+    },
+    "photo_matches": true,
+    "photo_check_note": "하늘을 가리키는 천사가 소년을 감싸 안고, 왼쪽 어둠 속에 다른 인물(악마로 보임)이 있는 대형 세로 화면 — collections.louvre.fr 레코드 이미지(0001236508_OG.JPG)를 내려받아 직접 대조, 일치. 라벨 미노출.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010062411",
+      "inv": "INV 282 (autre n°: MR 214)",
+      "title_fr": "L' Ange gardien",
+      "attribution_fr": "Fetti, Domenico — Attribution actuelle; École: Italie",
+      "date": "1e quart du XVIIe siècle (vers 1616 - 1618)",
+      "medium": "huile sur toile",
+      "dimensions": "Hauteur 2,92 m; Largeur 1,88 m (avec accessoire: 2,92 m × 2,08 m)",
+      "location": "Denon, [Peint] Salle 717 - Salvator Rosa, Niveau 1",
+      "acquisition": "entrée - Collection de Louis XIV, 1662 (acquis d'Everhard Jabach); provenance antérieure Mantoue (Gonzague) → Charles Ier d'Angleterre marquée (?)"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1616–1618년경"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "292 × 188 cm"
+      ],
+      [
+        "소장번호",
+        "INV 282"
+      ],
+      [
+        "전시실",
+        "드농관 717호실 (Salle Salvator Rosa)"
+      ]
+    ],
+    "body_ko": [
+      "로마 출신 화가 도메니코 페티가 만토바의 곤차가 공작 페르디난도 1세의 궁정에서 일하던 시기에 그린 작품이다. 한 손으로 하늘을 가리키는 수호천사가 어린 소년을 감싸 이끌고 있다.",
+      "루브르 기록에 따르면 만토바 공작궁의 수호천사 예배당을 위해 그려졌고, 1627년 곤차가 가문 소장품 매각 때 영국 왕 찰스 1세에게 넘어갔을 가능성이 있으나 이 부분은 확정되지 않았다. 확실한 경로는 파리의 수집가 에버하르트 야바흐를 거쳐 1662년 루이 14세의 소장품이 된 것이다. 이후 베르사유 궁의 여러 방에 걸렸다가 1797년 루브르로 옮겨졌다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062411",
+        "used_for": "메타데이터, 소장 이력(만토바 예배당(?), 곤차가 매각·찰스 1세(?), 야바흐, 1662 루이 14세, 베르사유, 1797 루브르)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Domenico_Fetti",
+        "used_for": "(2차) 로마 출생, 1613–1622 만토바에서 페르디난도 곤차가의 후원"
+      },
+      {
+        "url": "thumbs/05-Fetti_Guardian-Angel.jpg",
+        "used_for": "화면 묘사(하늘을 가리키는 천사, 소년) — 소유자 촬영 사진 관찰"
+      }
+    ],
+    "unverified": [
+      "화면 왼쪽 인물이 악마인지는 출처로 확인하지 못해 body에서 제외",
+      "만토바 예배당 주문 및 곤차가→찰스 1세 경로는 루브르 기록 자체에 '(?)' 표기"
+    ],
+    "conflicts": [
+      "Fetti의 만토바 도착 연도 1613 vs 1614 (2차 자료 간 차이) — body에서는 연도 미기재"
+    ]
+  },
+  {
+    "n": 6,
+    "file": "06-School-of-Pellegrini_Diana-and-Endymion.jpg",
+    "current": {
+      "artist": "School of Giovanni Antonio Pellegrini",
+      "title": "Diana and Endymion"
+    },
+    "photo_matches": true,
+    "photo_check_note": "모서리를 자른 팔각형 화면, 잠든 엔디미온과 구름 위의 디아나, 큐피드, 사냥개 — 루브르 레코드의 'Format : octogonal'과 주제가 일치. 라벨 미노출.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010064924",
+      "inv": "RF 1964 2",
+      "title_fr": "Diane et Endymion",
+      "attribution_fr": "Pellegrini, Giovanni Antonio — Attribution actuelle (linkType 없음); 'École de' 는 'Italie Vénétie Venise' 항목에만 붙음",
+      "date": "1e quart du XVIIIe siècle (vers 1720 - 1721)",
+      "medium": "huile sur toile",
+      "dimensions": "Hauteur 3,03 m; Largeur 1,88 m (avec accessoire: 3,07 m × 1,92 m); Format : octogonal",
+      "location": "Denon, [Peint] Salle 718 - Piazzetta, Niveau 1",
+      "acquisition": "achat, 1964; historique: Saint-Ouen (Seine-Saint-Denis), marché aux puces ; acquis en 1964"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "작가를 'School of Giovanni Antonio Pellegrini' → 'Giovanni Antonio Pellegrini'로 수정 권장. 루브르 JSON의 creator 배열에서 Pellegrini 항목은 linkType이 비어 있는 '현재 귀속(Attribution actuelle)'이며, 'École de'는 별도 항목인 지역 화파 'Italie Vénétie Venise'(=베네치아 화파)에 붙은 것. 모든 루브르 회화 레코드가 'Italie, École de' 같은 국가/지역 화파 항목을 가짐(예: 모나리자, 치마부에). README의 06 표기 근거와 note('루브르 표기: École de Pellegrini')도 함께 수정 필요. 파일명 변경 여부는 오케스트레이터 판단.",
+    "meta_ko": [
+      [
+        "제작",
+        "1720–1721년경"
+      ],
+      [
+        "재료",
+        "캔버스에 유채 (팔각형 화면)"
+      ],
+      [
+        "크기",
+        "303 × 188 cm"
+      ],
+      [
+        "소장번호",
+        "RF 1964 2"
+      ],
+      [
+        "전시실",
+        "드농관 718호실 (Salle Piazzetta)"
+      ]
+    ],
+    "body_ko": [
+      "달의 여신 디아나가 구름을 타고 내려와 잠든 목동 엔디미온을 바라보는 신화 장면이다. 모서리를 잘라낸 길쭉한 팔각형 화면에 그려졌다. 베네치아 출신의 조반니 안토니오 펠레그리니는 영국, 독일, 네덜란드 등 유럽 각지의 주문을 받아 장식화를 그렸고, 1720년 무렵에는 파리에서 존 로의 은행 천장화(현재 소실)를 맡은 것으로 알려져 있다.",
+      "루브르는 이 작품의 제작 시기를 1720–1721년경으로 본다. 1964년 생투앙 벼룩시장에서 나온 것을 매입했으며, 같은 경로와 형식, 연대를 지닌 〈보레아스와 오레이티이아〉, 〈바쿠스와 아리아드네〉도 함께 소장되었다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064924",
+        "used_for": "메타데이터, 귀속(Pellegrini, Attribution actuelle), 팔각형 형식, 1964 생투앙 벼룩시장 매입"
+      },
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064923",
+        "used_for": "Borée enlevant Orithye, RF 1964 3: 동일 연대·형식·이력 (현재 non exposé)"
+      },
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064922",
+        "used_for": "Bacchus et Ariane, RF 1964 4: 동일 연대·형식·이력"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Pellegrini",
+        "used_for": "(2차) 베네치아 출생, 유럽 각지 활동, 1720년경 파리 존 로 은행 천장화(소실)"
+      }
+    ],
+    "unverified": [
+      "세 팔각형 그림이 원래 한 실내 장식 연작이었는지, 파리 체류 중 그려진 것인지는 루브르 레코드에 명시 없음 — body에서 단정하지 않음",
+      "존 로 은행 천장화 관련 내용은 Wikipedia(2차)와 검색 스니펫(Petit Palais 페이지, 403으로 직접 확인 불가)에만 근거"
+    ],
+    "conflicts": [
+      "README/index.html은 'École de Pellegrini'로 표기했으나 루브르 레코드는 Pellegrini 본인 귀속 — 위 suggested_changes 참조"
+    ]
+  },
+  {
+    "n": 7,
+    "file": "07-Carreno-de-Miranda-and-Rizi_Foundation-of-the-Trinitarian-Order.jpg",
+    "current": {
+      "artist": "Juan Carreño de Miranda and Francisco Rizi",
+      "title": "Mass for the Foundation of the Trinitarian Order"
+    },
+    "photo_matches": true,
+    "photo_check_note": "상단이 둥근(cintré) 대형 제단화, 위쪽 성삼위, 아래쪽 미사 중 성체 거양 장면과 날개 달린 천사 — 루브르 레코드 묘사와 일치. 라벨 미노출.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010063051",
+      "inv": "RF 1964 36",
+      "title_fr": "La Fondation de l'ordre des Trinitaires",
+      "attribution_fr": "Carreño de Miranda, Juan; Rizi, Francisco — Attribution actuelle; École: Espagne",
+      "date": "2e moitié du XVIIe siècle (1666)",
+      "medium": "huile sur toile",
+      "dimensions": "Hauteur 5 m; Largeur 3,15 m (avec accessoire: 5,05 m × 3,45 m); Format : cintré",
+      "location": "Denon, [Peint] Salle 718 - Bartolomé Esteban Murillo (1618-1682), Niveau 1",
+      "acquisition": "don, 1964 — Hélène de Ganay, comtesse de Caraman, en souvenir de son mari; auparavant couvent des Trinitaires déchaux de Pampelune → … → château de Courson (ducs de Padoue)"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "선택 사항: 루브르 제목은 'La Fondation de l'ordre des Trinitaires'(The Foundation of the Trinitarian Order). 현재 영어 제목 'Mass for the Foundation...'도 장면(창설 계시를 받은 미사)을 설명하므로 오류는 아님.",
+    "meta_ko": [
+      [
+        "제작",
+        "1666"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "500 × 315 cm"
+      ],
+      [
+        "소장번호",
+        "RF 1964 36"
+      ],
+      [
+        "전시실",
+        "드농관 718호실"
+      ]
+    ],
+    "body_ko": [
+      "성 요한 데 마타가 파리 대주교 모리스 드 쉴리의 예배당에서 첫 미사를 올리던 순간을 그렸다. 성체를 들어 올릴 때 두 팔을 벌린 천사가 무릎 꿇은 두 노예의 머리에 손을 얹은 모습으로 나타나, 붙잡힌 그리스도교도를 되찾는 수도회를 세우라는 사명을 알렸다고 전한다. 화면 위쪽에는 성삼위가 자리한다.",
+      "팜플로나의 맨발 삼위일체회 수도원 제단화로 제작되었고, 화면 왼쪽 아래에 카레뇨의 서명과 1666년 연도가 있다. 리시가 그린 준비 소묘가 피렌체 우피치에 전한다. 19세기 초 수도원을 떠난 뒤 프랑스로 건너가 쿠르송 성의 소장품이 되었고, 1964년 카라망 백작부인이 기증했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010063051",
+        "used_for": "메타데이터, 장면 설명(성 요한 데 마타의 첫 미사, 천사와 두 노예, 성삼위), 서명·연도, 팜플로나 수도원→쿠르송 성→1964 기증 이력"
+      },
+      {
+        "url": "https://www.unav.edu/web/catedra-patrimonio/actividades/ciclos-y-conferencias/2014/las-clausuras-decoro-y-calidad-en-la-pintura-foranea",
+        "used_for": "팜플로나 삼위일체회 수도원 제단화, Rizi 서명 준비 소묘(우피치), Carreño 서명 유화 스케치(빈)"
+      }
+    ],
+    "unverified": [
+      "카레뇨와 리시의 구체적 분담(리시 구상/카레뇨 실행)은 출처 간 서술 차이로 body에서 '준비 소묘' 사실만 기재",
+      "'19세기 초 수도원을 떠남'은 루브르 기록(1820/21 산 안톤 수도원 재고, 1835년 이전 Pablo Bergé 매입)에서 요약한 것"
+    ],
+    "conflicts": [
+      "웹 검색 요약 일부가 소장자를 'Duke of Palma'로 표기했으나 루브르 기록은 'duc de Padoue'(Arrighi de Casanova) — 루브르 기록 채택"
+    ]
+  }
+]

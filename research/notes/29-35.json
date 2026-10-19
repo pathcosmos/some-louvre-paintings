@@ -1,0 +1,478 @@
+[
+  {
+    "n": 29,
+    "file": "29-Ingres_Mademoiselle-Caroline-Riviere.jpg",
+    "current": {
+      "artist": "Jean-Auguste-Dominique Ingres",
+      "title": "Mademoiselle Caroline Rivière"
+    },
+    "photo_matches": true,
+    "photo_check_note": "흰 엠파이어 드레스·모피 숄·갈색 장갑, 아치형 상단 화면. 액자 상단 명판 'LÉGUÉ PAR Mme VEUVE RIVIÈRE née ROBILLARD', 하단 명판 'INGRES' 판독 — 루브르 기록의 유증자와 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010059995",
+      "inv": "MI 1447",
+      "title_fr": "Mademoiselle Caroline Rivière",
+      "attribution_fr": "Ingres, Jean-Auguste-Dominique (Montauban 1780 – Paris 1867), École de France",
+      "date": "1805 (1e quart du XIXe siècle)",
+      "medium": "huile sur toile (transposition (1938))",
+      "dimensions": "H. 1 m ; L. 0,7 m (avec cadre : 1,22 × 0,917 m)",
+      "location": "Denon, Salle 702 - Salle Daru, néoclassicisme (Niveau 1)",
+      "acquisition": "Legs de Mme Paul Rivière née Sophie Robillard, 1870. Historique : « Fille de Philibert Rivière. Salon de 1806. »"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1805"
+      ],
+      [
+        "재료",
+        "캔버스에 유채 (1938년 새 캔버스로 옮김)"
+      ],
+      [
+        "크기",
+        "100 × 70 cm"
+      ],
+      [
+        "소장번호",
+        "MI 1447"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "나폴레옹 제정기의 관리 필리베르 리비에르는 젊은 앵그르에게 자신과 아내, 딸의 초상을 주문했다. 이 그림은 그중 딸 카롤린을 그린 것으로, 루브르는 제작 연도를 1805년으로 기록하며 1806년 살롱에 출품되었다. 모델은 이듬해 세상을 떠난 것으로 알려져 있다.",
+      "흰 엠파이어 드레스에 모피 숄을 두르고 갈색 장갑을 낀 소녀가 물가 풍경을 배경으로 정면을 바라본다. 화면 윗부분은 원래 아치형이었다. 길게 늘인 목처럼 해부학적 정확성보다 매끄러운 윤곽선을 앞세운 표현은 당시 살롱에서 초기 플랑드르 회화를 떠올리게 한다는 이유로 좋은 평을 받지 못한 것으로 전한다.",
+      "1870년 리비에르 부인(소피 로비야르)의 유증으로 국가 소장품이 되었으며, 액자 상단 명판에도 이 사실이 새겨져 있다. 1938년 물감층을 새 캔버스로 옮기는 처리를 거쳤다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010059995",
+        "used_for": "인벤토리, 날짜, 재료·transposition, 크기, 위치, 아치형 원형, 묘사, 살롱 1806, 유증 1870"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mademoiselle_Caroline_Rivi%C3%A8re",
+        "used_for": "리비에르 가족 3점 초상 주문 배경, 모델의 이듬해 사망, 살롱의 부정적 평가(초기 플랑드르 회화 연상), 늘인 목 (2차 출처)"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Mademoiselle_Rivi%C3%A8re",
+        "used_for": "세 점 중 마지막 초상, 모델 사망 교차 확인 (2차 출처)"
+      }
+    ],
+    "unverified": [
+      "모델의 사망 시점(이듬해)·살롱 평가 내용은 Wikipedia(en/fr)에만 근거, 루브르 기록에는 없음",
+      "모델 나이: fr wiki 13세, en wiki 13–15세 — 본문에서 제외",
+      "서명 'Ingres'는 루브르가 '( apocryphe ? )'로 표기 — 본문 미기재"
+    ],
+    "conflicts": [
+      "제작연도: 루브르 1805 vs en.wikipedia 1806",
+      "유증자: 루브르 'Mme Rivière, Paul née Sophie Robillard' vs en.wikipedia 'sister-in-law' — 루브르 기록 채택",
+      "fr.wikipedia는 인벤토리를 'M. I. 1445'로 적으나 루브르는 MI 1447"
+    ]
+  },
+  {
+    "n": 30,
+    "file": "30-Guerin_Clytemnestra-Hesitating-before-Agamemnon.jpg",
+    "current": {
+      "artist": "Pierre-Narcisse Guérin",
+      "title": "Clytemnestra Hesitating before Killing the Sleeping Agamemnon"
+    },
+    "photo_matches": true,
+    "photo_check_note": "정사각형에 가까운 화면, 붉은 반투명 휘장 앞 단검 든 여인과 뒤에서 미는 남자, 오른쪽 침대에 잠든 남자 — 루브르 묘사와 일치. 명판은 판독 불가.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010065590",
+      "inv": "INV 5185 (autre n° : L 3610)",
+      "title_fr": "Clytemnestre hésite avant de frapper Agamemnon endormi. Égisthe, son complice, la pousse",
+      "attribution_fr": "Guérin, Pierre-Narcisse (Paris 1774 – Rome 1833), École de France",
+      "date": "1817 (1e quart du XIXe siècle)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 3,42 m ; L. 3,25 m (avec cadre : 3,81 × 3,65 m)",
+      "location": "Denon, Salle 702 - Salle Daru, néoclassicisme (Niveau 1)",
+      "acquisition": "Entrée - Collection de Louis XVIII, 1819. Historique : « Salon de 1817. Acquis le 22 juin 1819 pour 12 000 francs. Localisé au Luxembourg dans l'inventaire L. »"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "선택: 제목을 루브르 원제에 맞춰 'Clytemnestra Hesitating before Striking the Sleeping Agamemnon'으로 다듬을 수 있음(원제 'frapper' = 내려치다). 현재 제목도 의미상 오류는 아님.",
+    "meta_ko": [
+      [
+        "제작",
+        "1817"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "342 × 325 cm"
+      ],
+      [
+        "소장번호",
+        "INV 5185"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "그리스 신화에서 트로이 전쟁을 마치고 귀환한 아가멤논은 아내 클리타임네스트라와 그녀의 정부 아이기스토스에게 살해된다. 게랭은 그 직전, 잠든 왕 앞에서 단검을 쥔 채 멈춰 선 클리타임네스트라와 뒤에서 그녀를 떠미는 아이기스토스를 그렸다.",
+      "붉고 반투명한 휘장이 화면을 둘로 나누어, 앞쪽 어둠 속 두 공모자의 모습과 안쪽 빛 속에 누운 아가멤논을 대비시킨다.",
+      "1817년 살롱에 출품되었고 1819년 왕실이 12,000프랑에 사들여 뤽상부르 미술관에 두었다. 게랭은 제리코와 들라크루아를 가르친 스승이기도 하다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065590",
+        "used_for": "인벤토리, 원제, 날짜, 재료, 크기, 위치, 화면 묘사(붉은 반투명 휘장, 아이기스토스가 미는 자세), 1817 살롱, 1819 구입가·뤽상부르"
+      },
+      {
+        "url": "https://pop.culture.gouv.fr/notice/joconde/000PE001391",
+        "used_for": "주제 키워드(poignard 등), 1817 살롱, 1819 구입 교차 확인"
+      },
+      {
+        "url": "https://www.matthiesengallery.com/work_of_art/clytemnestra-and-agamemnon",
+        "used_for": "아가멤논 살해 신화 배경(호메로스/아이스킬로스) (2차 출처)"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Pierre-Narcisse_Gu%C3%A9rin",
+        "used_for": "게랭의 제자 제리코·들라크루아, 1817 살롱 출품 (2차 출처)"
+      }
+    ],
+    "unverified": [],
+    "conflicts": [
+      "서명: 루브르 'Signé daté en bas à gauche: P.Guérin 1815.' vs Joconde 'P.Guerin 1817 (S.D.b.d.)' — 연도·위치 모두 상이, 본문에서 서명 언급 제외",
+      "구입일: 루브르 objectHistory '22 juin 1819' vs acquisitionDetails '22/05/1819'"
+    ]
+  },
+  {
+    "n": 31,
+    "file": "31-Girodet_Pygmalion-and-Galatea.jpg",
+    "current": {
+      "artist": "Anne-Louis Girodet",
+      "title": "Pygmalion and Galatea"
+    },
+    "photo_matches": true,
+    "photo_check_note": "붉은 옷의 남자, 받침대 위 나체 여인상, 둘 사이 큐피드 — 지로데 작품 구성과 일치. 명판 없음.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010067324",
+      "inv": "RF 2002 4",
+      "title_fr": "Pygmalion et Galatée",
+      "attribution_fr": "Girodet de Roucy-Trioson, Anne-Louis, École de France",
+      "date": "1812 - 1819 (1e tiers du XIXe siècle)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 2,53 m ; L. 2,025 m (avec cadre : 2,885 × 2,385 m)",
+      "location": "Denon, Salle 702 - Salle Daru, néoclassicisme (Niveau 1)",
+      "acquisition": "Achat, 2002. Commandé par Giovanni-Battista Sommariva en 1812 ; Salon de 1819 ; vente Luigi Sommariva 1839, adjugé au comte de Chevigné ; par descendance famille de Luynes ; acheté par le Louvre en 2002."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1812–1819"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "253 × 202.5 cm"
+      ],
+      [
+        "소장번호",
+        "RF 2002 4"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "오비디우스의 『변신 이야기』에 나오는 조각가 피그말리온의 이야기를 그렸다. 자신이 만든 조각상을 사랑하게 된 피그말리온 앞에서 갈라테이아가 막 생명을 얻는 순간으로, 둘 사이의 큐피드가 두 인물을 이어 준다.",
+      "1812년 이탈리아 출신 수집가 조반니 바티스타 솜마리바가 주문했으나, 모델 문제와 화가의 병 등으로 완성이 늦어진 것으로 전하며, 1819년 살롱에서야 공개되었다. 붉은 옷의 피그말리온과 빛에 감싸인 하얀 몸의 갈라테이아가 뚜렷하게 대비된다.",
+      "1839년 솜마리바 아들의 유산 경매에서 슈비녜 백작이 낙찰받은 뒤 후손인 뤼인 가문에 전해졌고, 2002년 루브르가 구입했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010067324",
+        "used_for": "인벤토리, 날짜, 재료, 크기, 위치, 1812 솜마리바 주문, 1819 살롱, 1839 경매·슈비녜, 뤼인 가문, 2002 구입"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pygmalion_and_Galatea_(Girodet)",
+        "used_for": "오비디우스 출전, 생명을 얻는 순간, 큐피드의 역할, 붉은 옷, 지연 이유(모델·병) (2차 출처)"
+      }
+    ],
+    "unverified": [
+      "완성 지연 이유(모델 문제, 1817년 화가의 병)는 Wikipedia에만 근거"
+    ],
+    "conflicts": [
+      "제작 기간: 루브르 1812–1819 vs en.wikipedia 'began 1813, six years' vs Matthiesen 'eight years' — 루브르 채택",
+      "인벤토리 표기: 루브르 'RF 2002 4', Wikidata 'RF 2002-4' 병기"
+    ]
+  },
+  {
+    "n": 32,
+    "file": "32-Ingres_La-Grande-Odalisque.jpg",
+    "current": {
+      "artist": "Jean-Auguste-Dominique Ingres",
+      "title": "La Grande Odalisque"
+    },
+    "photo_matches": true,
+    "photo_check_note": "뒤돌아 누운 나체 여인, 터번, 공작깃털 부채, 푸른 휘장 — 루브르 묘사와 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010065566",
+      "inv": "RF 1158",
+      "title_fr": "Une odalisque, dite La grande odalisque",
+      "attribution_fr": "Ingres, Jean-Auguste-Dominique (Montauban 1780 – Paris 1867), École de France",
+      "date": "1814 (1e quart du XIXe siècle)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 0,91 m ; L. 1,62 m (avec cadre : 1,372 × 2,067 m)",
+      "location": "Denon, Salle 702 - Salle Daru, néoclassicisme (Niveau 1)",
+      "acquisition": "Achat, 1899. « Peint pour Caroline Murat, reine de Naples. Salon de 1819. »"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1814"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "91 × 162 cm"
+      ],
+      [
+        "소장번호",
+        "RF 1158"
+      ],
+      [
+        "전시실",
+        "드농관 702호실 (Salle Daru)"
+      ]
+    ],
+    "body_ko": [
+      "나폴레옹의 여동생이자 나폴리 왕비였던 카롤린 뮈라를 위해 그린 작품이다. 오른쪽 아래에 'J.A.Ingres. Pxit 1814.Rom'이라는 서명이 있어 1814년 로마에서 완성되었음을 알 수 있다.",
+      "터번을 쓴 여인이 등을 보인 채 푸른 침상에 비스듬히 누워 어깨 너머로 돌아보고, 손에는 공작 깃털 부채를 들었다. 실제 인체보다 길게 늘인 등과 팔다리는 1819년 살롱에서 해부학적으로 부정확하다는 비판을 받은 것으로 알려져 있으며, 이를 의도된 변형으로 보는 해석도 있다.",
+      "1899년 국가가 구입해 루브르 소장품이 되었다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065566",
+        "used_for": "인벤토리, 원제, 날짜, 서명 문구, 재료, 크기, 위치, 화면 묘사(터번·공작깃털 부채·푸른 침상), 카롤린 뮈라를 위해 제작, 1819 살롱, 1899 구입"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Grande_Odalisque",
+        "used_for": "카롤린 뮈라가 나폴레옹의 여동생, 1819 살롱의 해부학 비판, 의도된 변형이라는 연구 (2차 출처)"
+      }
+    ],
+    "unverified": [
+      "살롱 비판·'의도된 변형' 연구는 Wikipedia에만 근거(원 연구 미확인)"
+    ],
+    "conflicts": [
+      "en.wikipedia는 '1814년 첫 공개 시 혹평'도 언급하나 루브르 기록상 공개는 1819 살롱 — 본문은 1819만 기재"
+    ]
+  },
+  {
+    "n": 33,
+    "file": "33-Delacroix_Liberty-Leading-the-People.jpg",
+    "current": {
+      "artist": "Eugène Delacroix",
+      "title": "Liberty Leading the People"
+    },
+    "photo_matches": true,
+    "photo_check_note": "삼색기를 든 여인, 실크햇 남자, 권총 든 소년, 바리케이드 위 시신들 — 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010065872",
+      "inv": "RF 129",
+      "title_fr": "Le 28 juillet 1830. La Liberté guidant le peuple",
+      "attribution_fr": "Delacroix, Eugène, École de France",
+      "date": "1830 (2e quart du XIXe siècle)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 2,6 m ; L. 3,25 m (avec cadre : 2,97 × 3,65 m)",
+      "location": "Denon, Salle 700 - Salle Mollien, romantisme (Niveau 1)",
+      "acquisition": "Achat par l'État : décision 08/1831 (3 000 francs, ministère du Commerce et des Travaux publics) ; arrivée au Musée 1874 ; inscription à l'inventaire 1875."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1830"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "260 × 325 cm"
+      ],
+      [
+        "소장번호",
+        "RF 129"
+      ],
+      [
+        "전시실",
+        "드농관 700호실 (Salle Mollien)"
+      ]
+    ],
+    "body_ko": [
+      "루브르의 정식 제목은 「1830년 7월 28일. 민중을 이끄는 자유의 여신」으로, 샤를 10세를 몰아낸 7월 혁명을 다룬다. 들라크루아는 1830년 9월부터 12월까지 센 강변 볼테르 부두의 작업실에서 이 그림을 그렸다.",
+      "프리기아 모자를 쓴 자유의 여신이 삼색기와 총검 달린 소총을 들고, 실크햇의 시민과 양손에 권총을 든 소년 등 여러 계층의 사람들을 이끌며 쓰러진 이들의 몸을 넘어 앞으로 나아간다.",
+      "1831년 살롱에 출품된 뒤 같은 해 국가가 3,000프랑에 사들였지만, 오랫동안 보관고와 화가의 손을 오갔다. 1874년 루브르로 옮겨져 이듬해 RF 129로 등록되었고, 2023–2024년 세척 복원을 거쳤다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065872",
+        "used_for": "인벤토리, 원제, 날짜, 재료, 크기, 위치, 제작 기간·작업실, 1831 살롱, 3,000프랑 구입, 보관·반환 이력, 1874 이관·1875 등록, 2023–2024 복원"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Liberty_Leading_the_People",
+        "used_for": "7월 혁명·샤를 10세, 프리기아 모자, 인물 구성(실크햇, 권총 소년, 총검 소총) (2차 출처)"
+      }
+    ],
+    "unverified": [
+      "작품이 오래 보관고에 머문 이유는 루브르 기록에 명시되지 않아 본문에서 언급하지 않음"
+    ],
+    "conflicts": []
+  },
+  {
+    "n": 34,
+    "file": "34-Gerard_Daphnis-and-Chloe.jpg",
+    "current": {
+      "artist": "François Gérard",
+      "title": "Daphnis and Chloe"
+    },
+    "photo_matches": true,
+    "photo_check_note": "그루터기에 앉아 화관을 엮는 청년과 그의 무릎에 기대 잠든 소녀, 큰 나무와 개울 — fr.wikipedia 묘사와 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010064853",
+      "inv": "INV 4740 (autre n° : C 55)",
+      "title_fr": "Daphnis et Chloé",
+      "attribution_fr": "Gérard, François, École de France",
+      "date": "1825 (1e quart du XIXe siècle)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 2,04 m ; L. 2,28 m (avec cadre : 2,405 × 2,715 m)",
+      "location": "Denon, Salle 700 - Salle Mollien, romantisme (Niveau 1)",
+      "acquisition": "Entrée - Collection de Charles X, 22/03/1825 : acheté par la Direction des Musées royaux (Maison du Roi) pour 25 000 francs."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1825"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "204 × 228 cm"
+      ],
+      [
+        "소장번호",
+        "INV 4740"
+      ],
+      [
+        "전시실",
+        "드농관 700호실 (Salle Mollien)"
+      ]
+    ],
+    "body_ko": [
+      "고대 그리스 작가 롱고스의 목가 소설 『다프니스와 클로에』를 주제로 한다. 나무 그루터기에 앉은 다프니스가 화관을 엮고, 그의 무릎에 기댄 클로에는 잠들어 있다. 배경에는 큰 나무와 동굴에서 흘러나오는 개울이 펼쳐진다.",
+      "1824년 살롱 도록에 실렸지만 실제로는 출품되지 않았고, 1825년 3월 왕실 미술관 행정이 25,000프랑에 구입했다. 같은 해 루브르에서 제라르의 「프시케와 큐피드」 맞은편에 잠시 전시되었다.",
+      "이후 튀일리 궁 디안 갤러리를 거쳐 1847년 루브르로 돌아왔고, 제2차 세계대전 중에는 몽탈 성에 피신했다가 1946년 복귀했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064853",
+        "used_for": "인벤토리, 날짜, 재료, 크기, 위치, 1824 살롱 미출품, 1825 구입가, 「프시케와 큐피드」 맞은편 전시, 디안 갤러리, 1847 복귀, 몽탈 성 피신·1946 복귀"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Daphnis_et_Chlo%C3%A9_(G%C3%A9rard)",
+        "used_for": "롱고스 원작, 화관을 엮는 다프니스·잠든 클로에, 나무·동굴·개울 배경 (2차 출처)"
+      }
+    ],
+    "unverified": [
+      "원작 롱고스 및 화면 묘사는 fr.wikipedia에 근거(사진으로 장면은 확인)",
+      "루브르 기록상 「Psyché et l'Amour」— 한국어 제목 '프시케와 큐피드'는 통용 번역"
+    ],
+    "conflicts": []
+  },
+  {
+    "n": 35,
+    "file": "35-Delacroix_Death-of-Sardanapalus.jpg",
+    "current": {
+      "artist": "Eugène Delacroix",
+      "title": "The Death of Sardanapalus"
+    },
+    "photo_matches": true,
+    "photo_check_note": "붉은 침상 위에 누운 왕, 학살당하는 여인들과 말, 금빛 코끼리 머리 장식 — 일치.",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010065757",
+      "inv": "RF 2346",
+      "title_fr": "Mort de Sardanapale",
+      "attribution_fr": "Delacroix, Eugène, École de France",
+      "date": "1827 (2e quart du XIXe siècle)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 3,92 m ; L. 4,96 m",
+      "location": "Denon, Salle 700 - Salle Mollien, romantisme (Niveau 1)",
+      "acquisition": "Achat sur les arrérages d'un legs, conseil artistique des musées nationaux 27/06/1921 ; vendu par Raphaël Vitta au Louvre en 1921 pour 700 000 francs."
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1827"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "392 × 496 cm"
+      ],
+      [
+        "소장번호",
+        "RF 2346"
+      ],
+      [
+        "전시실",
+        "드농관 700호실 (Salle Mollien)"
+      ]
+    ],
+    "body_ko": [
+      "반란군에게 궁전을 포위당한 아시리아의 전설적 왕 사르다나팔루스는 거대한 장작더미 위 침상에 누워, 자신의 쾌락에 쓰인 여인과 시종, 말까지 모두 죽이라고 명령한다. 들라크루아는 이 장면을 1827년 하반기에 그렸고, 영국 시인 바이런의 희곡에서 영감을 받은 것으로 알려져 있다.",
+      "붉은 침상이 대각선으로 화면을 가로지르고, 학살의 혼란 속에서도 왕은 무심하게 이를 내려다본다. 강렬한 색채와 거친 붓질로 신고전주의의 질서와 절제를 벗어난 이 그림은 살롱에서 큰 논란을 낳은 것으로 전한다.",
+      "1828년 초 살롱 막바지에 1630번으로 전시되었으며, 화면 왼쪽 아래 구석에 그 번호표가 지금도 붙어 있다. 팔리지 않아 화가가 18년간 보관하다 1846년 수집가에게 넘겼고, 여러 소장자를 거쳐 1921년 루브르가 구입했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065757",
+        "used_for": "인벤토리, 날짜, 재료, 크기, 위치, 살롱 도록 인용문(장면 내용), 1827 하반기 제작, 1828 살롱 1630번, '1630' 라벨, 18년 보관, 1846 Wilson 매각, 1921 구입"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Death_of_Sardanapalus",
+        "used_for": "바이런 희곡 영감, 무심한 왕, 색채·붓질, 신고전주의와 대비, 살롱 논란 (2차 출처)"
+      }
+    ],
+    "unverified": [
+      "바이런 영감·살롱 논란은 Wikipedia에만 근거",
+      "'붉은 침상이 대각선으로 화면을 가로지르고'는 화면 관찰 서술"
+    ],
+    "conflicts": [
+      "살롱 연도: en.wikipedia 'Salon of 1827' vs 루브르 'Salon de 1827-1828, exposé février–avril 1828' — 루브르 채택"
+    ]
+  }
+]

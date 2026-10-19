@@ -253,6 +253,71 @@
   }
   .info .note:empty { display: none; }
 
+  /* ── 작품 설명 (상세 모드) ── */
+  .info { min-height: 0; overscroll-behavior: contain; }
+  .more {
+    all: unset; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 14px; padding: 8px 14px 8px 12px;
+    border-radius: 999px;
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.22);
+    font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--v-fg);
+    transition: background .2s ease;
+  }
+  .more:hover { background: rgba(255,255,255,.08); }
+  .more:focus-visible { outline: 1px solid rgba(255,255,255,.45); outline-offset: 2px; }
+  .more svg { width: 14px; height: 14px; transition: transform .3s var(--ease); }
+  .more[hidden] { display: none; }
+  .viewer.detail .more svg { transform: rotate(45deg); }
+  .handle { display: none; }
+
+  .desc { display: none; max-width: 34em; margin-top: 18px; }
+  .viewer.detail .desc { display: block; animation: rise .45s var(--ease); }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+  .desc dl {
+    display: grid; grid-template-columns: auto 1fr; gap: 6px 18px;
+    margin: 0; padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,.12);
+    border-bottom: 1px solid rgba(255,255,255,.12);
+    font-size: 12px;
+  }
+  .desc dt { color: var(--v-muted); letter-spacing: .06em; }
+  .desc dd { margin: 0; }
+  .desc .body { margin-top: 18px; }
+  .desc .body p { margin: 0 0 1em; font-size: 15px; line-height: 1.75; color: rgba(241,236,227,.86); }
+  .desc .src { margin: 6px 0 4px; font-size: 12px; line-height: 1.9; color: var(--v-muted); overflow-wrap: anywhere; }
+  .desc .src a { color: var(--v-fg); text-underline-offset: 3px; }
+
+  /* 세로 화면: 하단 시트. 그림은 위쪽으로 줄여 계속 보이게 하고, 시트 내부만 스크롤 */
+  @media (orientation: portrait) {
+    .viewer.detail {
+      grid-template-rows: auto minmax(0, 38%) minmax(0, 1fr);
+      grid-template-areas: "bar" "stage" "info";
+    }
+    .viewer.detail .strip { display: none; }
+    .viewer.detail .info {
+      overflow-y: auto;
+      margin-top: 8px;
+      padding-top: 0;
+      padding-bottom: max(24px, env(safe-area-inset-bottom));
+      background: rgba(22,20,18,.94);
+      border-radius: 18px 18px 0 0;
+      box-shadow: 0 -12px 40px rgba(0,0,0,.45);
+    }
+    .viewer.detail .handle {
+      all: unset; cursor: pointer;
+      display: block; position: sticky; top: 0; z-index: 1;
+      width: calc(100% + 40px); height: 22px; margin: 0 -20px 4px;
+      background: rgba(22,20,18,.94);
+    }
+    .viewer.detail .handle::before {
+      content: ""; position: absolute; top: 9px; left: 50%;
+      width: 36px; height: 4px; margin-left: -18px;
+      border-radius: 2px; background: rgba(255,255,255,.28);
+    }
+  }
+
   /* 하단 필름스트립: 상세 화면 안에서 다른 작품으로 바로 이동 */
   .strip {
     grid-area: strip;
@@ -284,13 +349,22 @@
       grid-template-areas: "bar bar" "stage info" "strip strip";
     }
     .info { align-self: end; padding-bottom: 28px; padding-left: 8px; }
+    /* 가로 화면 상세 모드: 오른쪽 패널을 넓히고 위에서부터 스크롤. 그림은 grid 열 변화로 자동 축소 */
+    .viewer.detail { grid-template-columns: minmax(0, 1fr) clamp(320px, 36vw, 500px); }
+    .viewer.detail .info {
+      align-self: stretch; overflow-y: auto;
+      padding-top: 18px; padding-right: max(28px, env(safe-area-inset-right)); padding-left: 24px;
+      border-left: 1px solid rgba(255,255,255,.08);
+      background: rgba(0,0,0,.18);
+    }
   }
   /* 휴대폰 가로: 세로 공간이 매우 좁으므로 필름스트립 숨김 */
   @media (orientation: landscape) and (max-height: 500px) {
     .viewer { grid-template-rows: auto minmax(0, 1fr); grid-template-areas: "bar bar" "stage info"; }
     .strip { display: none; }
-    .info { padding-bottom: max(14px, env(safe-area-inset-bottom)); }
+    .info { padding-bottom: max(14px, env(safe-area-inset-bottom)); overflow-y: auto; }
     .info .note { display: none; }
+    .viewer.detail .info .note:not(:empty) { display: block; }
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -303,7 +377,7 @@
   <header class="hero">
     <p class="eyebrow">Musée du Louvre · Paris</p>
     <h1>Some Louvre <em>Paintings</em></h1>
-    <p class="lede">루브르 박물관에서 직접 촬영한 회화 35점. 작품을 눌러 크게 보고, 좌우로 넘기며 감상하세요.</p>
+    <p class="lede">루브르 박물관에서 직접 촬영한 회화 35점. 작품을 눌러 크게 보고, 좌우로 넘기며 감상하세요. 「작품 설명」에서 작품별 해설을 볼 수 있습니다.</p>
     <div class="meta"><span><b>35</b> works</span><span><b>13th–19th</b> century</span><span>Cimabue → Delacroix</span></div>
   </header>
 
@@ -339,15 +413,22 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
     </button>
   </div>
-  <div class="info">
+  <div class="info" id="v-info">
+    <button class="handle" id="v-handle" aria-label="작품 설명 닫기"></button>
     <div class="no" id="v-no"></div>
     <h2 id="v-title"></h2>
     <div class="artist" id="v-artist"></div>
+    <button class="more" id="v-more" aria-expanded="false" aria-controls="v-detail" title="작품 설명 (I)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+      <span id="v-more-label">작품 설명</span>
+    </button>
     <div class="note" id="v-note"></div>
+    <section class="desc" id="v-detail" aria-label="작품 설명"></section>
   </div>
   <div class="strip" id="v-strip" aria-label="작품 목록"></div>
 </div>
 
+<script src="details.js"></script>
 <script>
 // 파일명은 jpg/rename_map.csv 의 new 컬럼과 동일해야 함 (thumbs/, web/, jpg/ 에 같은 이름으로 존재)
 const WORKS = [
@@ -356,7 +437,7 @@ const WORKS = [
   ["03-Leonardo-da-Vinci_Mona-Lisa-close.jpg", "Leonardo da Vinci", "Mona Lisa", "근접 촬영"],
   ["04-Raphael-and-Giulio-Romano_Isabel-de-Requesens.jpg", "Raphael and Giulio Romano", "Portrait of Isabel de Requesens", "옛 통칭: Joanna of Aragon"],
   ["05-Fetti_Guardian-Angel.jpg", "Domenico Fetti", "The Guardian Angel"],
-  ["06-School-of-Pellegrini_Diana-and-Endymion.jpg", "School of Giovanni Antonio Pellegrini", "Diana and Endymion", "루브르 표기: École de Pellegrini (RF 1964-2)"],
+  ["06-Pellegrini_Diana-and-Endymion.jpg", "Giovanni Antonio Pellegrini", "Diana and Endymion"],
   ["07-Carreno-de-Miranda-and-Rizi_Foundation-of-the-Trinitarian-Order.jpg", "Juan Carreño de Miranda and Francisco Rizi", "Mass for the Foundation of the Trinitarian Order"],
   ["08-Goya_Young-Woman-with-Fan.jpg", "Francisco de Goya", "Young Woman with a Fan"],
   ["09-Goya_Marquesa-de-Santa-Cruz.jpg", "Francisco de Goya", "Marquesa de Santa Cruz (Mariana Waldstein)"],
@@ -364,15 +445,15 @@ const WORKS = [
   ["11-Goya_Disparate-Other-Laws-for-the-People.jpg", "Francisco de Goya", "Disparate: Other Laws for the People", "Disparates 동판 원판 (Chalcographie du Louvre)"],
   ["12-Goya_Disparate-Queen-of-the-Circus.jpg", "Francisco de Goya", "Disparate: A Queen of the Circus", "Disparates 동판 원판 (Chalcographie du Louvre)"],
   ["13-Goya_Disparate-What-a-Warrior.jpg", "Francisco de Goya", "Disparate: What a Warrior!", "Disparates 동판 원판 (Chalcographie du Louvre)"],
-  ["14-School-of-Gessi_Virgin-and-Child.jpg", "School of Francesco Gessi", "Virgin and Child", "루브르 표기: École de Gessi (INV 523) · 오랫동안 Reni 작품으로 여겨짐"],
+  ["14-Gessi_Virgin-and-Child.jpg", "Francesco Gessi", "Virgin and Child", "오랫동안 Guido Reni 작품으로 여겨짐"],
   ["15-Reni_Union-of-Drawing-and-Colour.jpg", "Guido Reni", "The Union of Drawing and Colour"],
   ["16-Raphael_Baldassare-Castiglione.jpg", "Raphael", "Portrait of Baldassare Castiglione"],
   ["17-Raphael_Saint-Michael-Vanquishing-Satan.jpg", "Raphael", "Saint Michael Vanquishing Satan"],
-  ["18-Fra-Bartolomeo_Minerva.jpg", "Fra Bartolomeo", "Minerva", "작가 귀속이 여러 차례 바뀐 작품"],
+  ["18-Fra-Bartolomeo_Minerva.jpg", "Fra Bartolomeo", "Minerva", "작가 귀속이 여러 차례 바뀐 작품 · 루브르 현재 귀속: Fra Bartolomeo"],
   ["19-Piero-della-Francesca_Sigismondo-Malatesta.jpg", "Piero della Francesca", "Portrait of Sigismondo Pandolfo Malatesta"],
   ["20-David_Madame-Seriziat-and-Her-Son.jpg", "Jacques-Louis David", "Madame Sériziat and Her Son"],
   ["21-Guerin_Return-of-Marcus-Sextus.jpg", "Pierre-Narcisse Guérin", "The Return of Marcus Sextus"],
-  ["22-Drouais_Marius-at-Minturnae.jpg", "Jean-Germain Drouais", "Marius at Minturnae"],
+  ["22-Drouais_Marius-at-Minturnae.jpg", "Germain-Jean Drouais", "Marius at Minturnae"],
   ["23-David_The-Sabine-Women.jpg", "Jacques-Louis David", "The Intervention of the Sabine Women"],
   ["24-David_Coronation-of-Napoleon.jpg", "Jacques-Louis David", "The Coronation of Napoleon"],
   ["25-Workshop-of-David_Death-of-Marat.jpg", "Workshop of Jacques-Louis David", "The Death of Marat", "공방 복제본 · 원작은 브뤼셀 벨기에 왕립미술관"],
@@ -399,6 +480,35 @@ const grid = $("grid"), viewer = $("viewer"), img = $("v-img"), stage = $("v-sta
 const pad = (n) => String(n).padStart(2, "0");
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let cur = -1, rot = 0, lastFocus = null, token = 0;
+// wantDetail: 사용자가 설명을 열어 둔 상태. 설명 없는 작품을 지나도 유지되어, 다음 설명 있는 작품에서 다시 펼쳐짐
+let wantDetail = false;
+const info = $("v-info"), more = $("v-more");
+
+function renderDetail(w) {
+  const d = DETAILS[w.n];
+  more.hidden = !d;
+  // refs: 루브르 기록 외에 해설 작성에 쓴 보조 출처. 도메인만 짧게 표시
+  const host = (u) => new URL(u).hostname.replace(/^www\./, "");
+  $("v-detail").innerHTML = d ? `
+    <dl>${d.meta.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+    <div class="body">${d.body.map((p) => `<p>${esc(p)}</p>`).join("")}</div>
+    <p class="src">출처 · <a href="${esc(d.src)}" target="_blank" rel="noopener">Louvre Collections ↗</a>${d.refs.length ? `<br>참고 · ${d.refs.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(" · ")}` : ""}</p>` : "";
+  syncDetail();
+  info.scrollTop = 0;
+}
+
+function syncDetail() {
+  const on = wantDetail && !more.hidden;
+  viewer.classList.toggle("detail", on);
+  more.setAttribute("aria-expanded", String(on));
+  $("v-more-label").textContent = on ? "설명 닫기" : "작품 설명";
+}
+
+function setDetail(on) {
+  wantDetail = on;
+  syncDetail();
+  if (on) info.scrollTop = 0;
+}
 
 // 목록 렌더링
 grid.innerHTML = WORKS.map((w, i) => `
@@ -466,6 +576,7 @@ function show(i, dir = 0) {
   $("v-artist").textContent = w.artist;
   $("v-note").textContent = w.note;
   $("v-orig").href = `jpg/${w.file}`;
+  renderDetail(w);
 
   strip.querySelectorAll("button").forEach((b, j) => b.setAttribute("aria-current", j === cur ? "true" : "false"));
   const sb = strip.children[cur];
@@ -497,6 +608,7 @@ function close(fromPop = false) {
   viewer.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
   token++;
+  setDetail(false);
   if (!fromPop) {
     if (history.state && history.state.viewer) history.back();
     else history.replaceState(null, "", location.pathname + location.search);
@@ -512,14 +624,32 @@ $("v-prev").onclick = () => go(-1);
 $("v-next").onclick = () => go(1);
 $("v-close").onclick = () => close();
 $("v-rotate").onclick = rotate;
+more.onclick = () => setDetail(!viewer.classList.contains("detail"));
+$("v-handle").onclick = () => setDetail(false);
 
 document.addEventListener("keydown", (e) => {
   if (!viewer.classList.contains("open")) return;
   if (e.key === "ArrowRight") go(1);
   else if (e.key === "ArrowLeft") go(-1);
-  else if (e.key === "Escape") close();
+  // Esc: 설명이 열려 있으면 설명만 먼저 닫음
+  else if (e.key === "Escape") viewer.classList.contains("detail") ? setDetail(false) : close();
   else if (e.key === "r" || e.key === "R") rotate();
+  else if ((e.key === "i" || e.key === "I") && !more.hidden) setDetail(!viewer.classList.contains("detail"));
 });
+
+// 세로 화면 시트: 맨 위까지 스크롤된 상태에서 아래로 끌면 설명 닫기
+let sy = 0, sx = 0, sTop = 0;
+info.addEventListener("touchstart", (e) => {
+  sx = e.touches[0].clientX; sy = e.touches[0].clientY; sTop = info.scrollTop;
+}, { passive: true });
+info.addEventListener("touchend", (e) => {
+  if (!viewer.classList.contains("detail") || !matchMedia("(orientation: portrait)").matches || sTop > 0) return;
+  const dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+  if (dy > 70 && dy > Math.abs(dx) * 1.5) setDetail(false);
+}, { passive: true });
+
+// 설명 열고 닫을 때 stage 크기가 바뀌므로 회전 상태 크기 재계산
+new ResizeObserver(() => { if (viewer.classList.contains("open")) applyRotation(); }).observe(stage);
 
 // 스와이프: 수평 이동이 충분하고 수직보다 클 때만 이전/다음 (핀치 줌 중에는 무시)
 let tx = 0, ty = 0, multi = false;

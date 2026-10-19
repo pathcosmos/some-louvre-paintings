@@ -1,0 +1,550 @@
+[
+  {
+    "n": 8,
+    "file": "08-Goya_Young-Woman-with-Fan.jpg",
+    "current": {
+      "artist": "Francisco de Goya",
+      "title": "Young Woman with a Fan"
+    },
+    "photo_matches": true,
+    "photo_check_note": "회색 하이웨이스트 드레스, 손가락이 드러나는 반투명 장갑, 접힌 부채를 든 반신 착석 여인 — Fundación Goya의 작품 기술(neutral background, grey dress, semi-sheer gloves open at the hand, closed fan)과 일치. 벽 라벨은 사진에 없음",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010064756",
+      "inv": "RF 1132",
+      "title_fr": "La Femme à l'éventail",
+      "attribution_fr": "Goya y Lucientes, Francisco de (Saragosse 1746 – Bordeaux 1828); Espagne (École de) — 'École de'는 국가 화파 표기",
+      "date": "1e quart du XIXe siècle (vers 1806 - 1807)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 1,03 m ; L. 0,845 m (avec cadre : 1,26 × 1,065 m)",
+      "location": "Denon, [Peint] Salle 719 - Goya (Salle 719, Aile Denon, Niveau 1)",
+      "acquisition": "achat, 1898 — Atelier de Goya (inv. 1828 ?) et héritiers (Javier Goya, Mariano Goya); marquis José de Salamanca, vente Paris 5 VI 1867; Alphonse Oudry, vente 16 IV 1869; Th. Edwards, vente 7 III 1870; Édouard Kums, vente Anvers 17 V 1898, acquis à cette vente"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1806–1807년경"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "103 × 84.5 cm"
+      ],
+      [
+        "소장번호",
+        "RF 1132"
+      ],
+      [
+        "전시실",
+        "드농관 719호실 (Goya)"
+      ]
+    ],
+    "body_ko": [
+      "의자에 앉은 젊은 여인이 접힌 부채를 손에 쥐고 정면을 바라보는 초상이다. 루브르는 모델을 고야의 며느리 구메르신다 고이코에체아(1788년생)로 추정하는데, 1962년 사비에르 데 살라스가 1805년에 그려진 그녀의 초상과 얼굴이 닮았다는 점을 근거로 제안한 견해다. 2002년 가수 로렌사 코레아로 보자는 주장도 나왔으나 지금은 받아들여지지 않는다.",
+      "배경은 무채색으로 비워 두고, 가슴선이 깊게 파인 가벼운 회색 드레스와 손가락이 드러나는 반투명 장갑을 입혔다. 얼굴은 비교적 꼼꼼히 마무리한 반면 드레스는 가볍고 빠른 붓질로 처리해 두 부분의 마감 차이가 두드러진다.",
+      "고야 사후 화가의 아들과 손자가 물려받았고, 살라망카 후작 등 여러 수집가를 거쳐 1898년 안트베르펜 경매에서 루브르가 구입했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064756",
+        "used_for": "루브르 공식 레코드: 제목·연대·재료·크기·전시실·소장 이력·모델 동정(Salas 1962, Baticle 2002 기각) (JSON 레코드 .json 직접 조회, 2026-10-19)"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q18915957",
+        "used_for": "루브르 ark ID(010064756)·RF 1132 매핑"
+      },
+      {
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/mujer-joven-con-abanico/311",
+        "used_for": "구도·의상·장갑·부채·얼굴과 드레스의 붓질 차이 기술, 모델 동정 학설(Gudiol: Catalina Viola; Salas·Harris: Gumersinda)"
+      }
+    ],
+    "unverified": [
+      "모델 신원은 루브르도 'Probablement'(아마도)로 표기 — 확정 사실 아님",
+      "Fundación이 언급한 '인상주의를 연상시키는 효과'는 평가적 서술이라 본문에 넣지 않음"
+    ],
+    "conflicts": [
+      "크기: 루브르 1,03 × 0,845 m vs Fundación Goya 103 × 83 cm",
+      "모델: Gudiol은 Catalina Viola로 동정(Fundación), 루브르는 Gumersinda Goicoechea 가능성 + Lorenza Correa설 기각",
+      "1805년 비교 초상: 루브르는 '소묘 초상(portrait dessiné)', Fundación은 결혼 기념 메달리온(미니어처)으로 기술"
+    ]
+  },
+  {
+    "n": 9,
+    "file": "09-Goya_Marquesa-de-Santa-Cruz.jpg",
+    "current": {
+      "artist": "Francisco de Goya",
+      "title": "Marquesa de Santa Cruz (Mariana Waldstein)"
+    },
+    "photo_matches": true,
+    "photo_check_note": "풍경을 배경으로 선 전신 여인, 검은 드레스·만티야, 머리의 분홍 리본, 손에 든 부채, 흰 구두 — Fundación 기술과 일치. 우하단에 작은 표기(레코드상 '107 M. de R.' 수집가 표기)로 보이는 흔적이 있으나 판독 불가",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010064320",
+      "inv": "RF 1976 69",
+      "title_fr": "Portrait de Mariana Waldstein, 9e marquise de Santa Cruz ( 1763-1808)",
+      "attribution_fr": "Goya y Lucientes, Francisco de (Saragosse 1746 – Bordeaux 1828); Espagne (École de) — 'École de'는 국가 화파 표기",
+      "date": "4e quart du XVIIIe siècle (1797 - 1799)",
+      "medium": "huile sur toile",
+      "dimensions": "H. 1,42 m ; L. 0,97 m (avec cadre : 1,73 × 1,25 m)",
+      "location": "Denon, [Peint] Salle 719 - Goya (Salle 719, Aile Denon, Niveau 1)",
+      "acquisition": "dation, 1976 — marquis de Remisa (Madrid); Isabelle II; vente Paris 20 III 1883; Camille Groult; David David-Weill; Pierre puis Michel David-Weill; acquis par dation en paiement des droits de succession en 1976"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": null,
+    "meta_ko": [
+      [
+        "제작",
+        "1797–1799"
+      ],
+      [
+        "재료",
+        "캔버스에 유채"
+      ],
+      [
+        "크기",
+        "142 × 97 cm"
+      ],
+      [
+        "소장번호",
+        "RF 1976 69"
+      ],
+      [
+        "전시실",
+        "드농관 719호실 (Goya)"
+      ]
+    ],
+    "body_ko": [
+      "산타크루스 후작부인 마리아나 발트슈타인(1763–1808)의 전신 초상이다. 빈의 오스트리아 귀족 가문에서 태어난 그녀는 열여덟 살에 산타크루스 후작과 결혼해 마드리드에 정착했으며, 직접 유화·소묘·파스텔을 다루었고 산페르난도 왕립 아카데미의 회원이 되었다.",
+      "고야는 나무와 언덕이 펼쳐진 풍경 앞에 그녀를 세웠다. 검은 하이웨이스트 치마와 어깨를 덮은 만티야 위로 분홍빛 소매와 머리 리본이 대비를 이루고, 손에는 부채를 들었다.",
+      "그림은 레미사 후작과 스페인 여왕 이사벨 2세 등을 거쳐 은행가 다비드-베유 가문에 전해졌고, 1976년 상속세를 작품으로 대신 납부하는 대물변제(dation)를 통해 루브르에 들어왔다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010064320",
+        "used_for": "루브르 공식 레코드: 제목·생몰년·연대·재료·크기·전시실·소장 이력(dation 1976) (JSON 레코드 .json 직접 조회, 2026-10-19)"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q18811669",
+        "used_for": "루브르 ark ID(010064320)·RF 1976-69 매핑"
+      },
+      {
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/mariana-waldstein-ix-marquesa-de-santa-cruz/354",
+        "used_for": "모델 생애(빈 출생, 18세 결혼, 회화 활동, 산페르난도 아카데미 회원), 구도·의상·부채·색 대비 기술"
+      }
+    ],
+    "unverified": [
+      "아카데미 내 지위: Fundación은 'member', 영문 Wikipedia(Marie-Anne Waldstein)는 'honorary director'로 기술 — 본문은 '회원'으로만 씀",
+      "루브르 레코드가 1883년 경매 기록과 관련해 언급한 '에스키스' MI 698(Fundación은 1865년 Guillemardet 기증 익명 복제본으로 기술)은 본문에서 제외"
+    ],
+    "conflicts": [
+      "제작 연대: 루브르 1797–1799 vs Fundación 1797–1800년경 vs RAH 전기 1797–1798",
+      "입수 방식: 루브르 'dation'(상속세 대물변제) vs Fundación 'David Weill이 1976년 기증' — 루브르 표기 채택",
+      "소장 이력: Fundación은 Groult와 David Weill 사이에 'Grosnier'를 넣으나, 루브르 레코드는 Groult–Haro 교환설을 의심스럽다고 주석"
+    ]
+  },
+  {
+    "n": 10,
+    "file": "10-Goya_Disparate-Rain-of-Bulls.jpg",
+    "current": {
+      "artist": "Francisco de Goya",
+      "title": "Disparate: Rain of Bulls"
+    },
+    "photo_matches": true,
+    "photo_check_note": "판면에 공중에서 뒤엉킨 소 네 마리, 인물 없음 — Fundación 기술과 일치. 동판이 금속 거치대에 세워져 있음",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl020576204",
+      "inv": "11442 C/ Recto",
+      "title_fr": "Disparate de tontos (Pluie de taureaux)",
+      "attribution_fr": "Goya y Lucientes, Francisco de (1746-1828), Ecole espagnole",
+      "date": "Vers 1815/1824",
+      "medium": "eau-forte; burin (Planche de cuivre gravée de la série \"Las Disparates\")",
+      "dimensions": "H. 0,24 m ; L. 0,35 m",
+      "location": "Centre de Conservation du Louvre (레코드상; room 공란)",
+      "acquisition": "don, 2011 — Achat de la Société des Amis du Louvre pour en faire donation à la Chalcographie du Louvre (Département des Arts graphiques, Chalcographie)"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "제목은 유지 가능. 단 루브르 정식 표기는 'Disparate de tontos'(부제 Pluie de taureaux), Fundación·Wikipedia는 'Disparate de toritos' — 표기 시 'Disparate de toritos/tontos (Lluvia de toros)' 병기 권장",
+    "meta_ko": [
+      [
+        "제작",
+        "1815–1824년경"
+      ],
+      [
+        "재료",
+        "동판(에칭·뷔랭)"
+      ],
+      [
+        "크기",
+        "24 × 35 cm"
+      ],
+      [
+        "소장번호",
+        "11442 C"
+      ],
+      [
+        "소장",
+        "루브르 그래픽아트부 Chalcographie"
+      ]
+    ],
+    "body_ko": [
+      "고야의 판화 연작 〈디스파라테스〉 가운데 한 장면을 새긴 동판 원판이다. 허공에 뜬 소 네 마리가 뒤엉켜 몸을 뒤틀고 있으며, 연작에서 사람이 전혀 등장하지 않는 유일한 장면으로 꼽힌다. 1877년 《L'Art》 판에는 'Lluvia de toros(소의 비)'라는 제목이 인쇄되었다.",
+      "〈디스파라테스〉(어리석음들)는 고야가 1815–1824년 무렵 제작한 판화 연작으로, 생전에는 출간되지 않았다. 동판 18점은 1864년 마드리드 왕립 산페르난도 아카데미가 〈Proverbios〉(속담)라는 제목으로 처음 찍어냈고, 따로 떨어져 있던 네 점은 화가 에우헤니오 루카스의 소유를 거쳐 프랑스로 건너가 1877년 파리 미술지 《L'Art》에 처음 실렸다. 이 네 장의 동판은 2011년 루브르 친구회(Société des Amis du Louvre)가 구입해 루브르 칼코그라피(판화 원판 컬렉션)에 기증했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl020576204",
+        "used_for": "루브르 공식 레코드: 제목·부제·소장번호·연대·기법·크기·위치·입수(JSON 레코드 직접 조회, 2026-10-19). 'Planche de cuivre gravée de la série \"Las Disparates\"' 문구와 'Ecole espagnole', Torres 2011 문헌은 HTML 페이지(WebFetch 요약)에서 확인"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Los_disparates",
+        "used_for": "연작 개요(1815–1824 추정), 1864년 아카데미 'Proverbios' 18점 출간, 네 동판이 Eugenio Lucas 소유였다가 프랑스로 건너가 1877년 L'Art에 게재, 2011년 7월 루브르 판화소묘부 입수"
+      },
+      {
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/disparate-de-toritos/1360",
+        "used_for": "L'Art 1877 인쇄 캡션 'Lluvia de toros / (Pluie de Taureaux)', 공중의 소 네 마리, 인물 없는 유일한 장면"
+      },
+      {
+        "url": "https://risdmuseum.org/art-design/collection/disparate-de-tontos-or-toritos-fools-folly-or-little-bulls-folly-al-toro-y-al",
+        "used_for": "이칭 'Disparate de tontos (or toritos)', 'Al toro y al aire darles calle' (검색 스니펫으로만 확인)"
+      },
+      {
+        "url": "https://philamuseum.org/collection/object/50548",
+        "used_for": "상충 정보(동판이 1870년에 재등장) — 검색 스니펫으로만 확인, 본문 미사용"
+      }
+    ],
+    "unverified": [
+      "전시실: 루브르 레코드는 'Centre de Conservation du Louvre'(보존센터, room 공란)로 표기하며 '정보가 최신이 아닐 수 있음'이라 명시. 사진은 전시 공간(유리창 앞 금속 거치대)에서 촬영되어 현재 전시 위치와 불일치 → 전시실 미기재. 실제 전시실 확인 필요",
+      "Société des Amis du Louvre의 구입 금액·판매처는 확인하지 않음"
+    ],
+    "conflicts": [
+      "기법: 루브르 'eau-forte; burin'(에칭·뷔랭) vs Fundación Goya·Wikipedia '에칭·애쿼틴트·드라이포인트(burnished aquatint)'. meta_ko는 루브르 표기를 따름",
+      "크기: 루브르 동판 H 0,24 × L 0,35 m vs Fundación 인쇄본 판흔 245 × 350 mm(일부 247 × 359 mm). 동판과 판화 측정 대상이 달라 차이는 정상 범위로 추정",
+      "제작 연대: 루브르 '1815/1824년경' vs Fundación '1815–1819'",
+      "소유 경위: Fundación Goya 페이지(2023 개정)는 '동판은 파리 개인 소장'이라 기술 — 루브르 2011년 입수 기록과 불일치(갱신되지 않은 정보)",
+      "제목 표기: 루브르 'Disparate de tontos' vs Wikipedia(프라도 캡션 인용)·Fundación 'Disparate de toritos'; L'Art 1877 'Lluvia de toros'; RISD 이칭 'Al toro y al aire darles calle'",
+      "번호: linkgua 판본은 21번으로 표기(검색 결과 제목 기준), 1864년판 18점에는 미포함. 번호 체계는 판본마다 다름",
+      "네 동판의 경로: Wikipedia·Fundación Goya는 1856년 무렵 화가 Eugenio Lucas 소유로 기술, Philadelphia Museum of Art(검색 스니펫)는 '고야 사후 분리되어 1870년에야 다시 나타났다'고 기술 — 본문은 Lucas 소유설을 사용"
+    ]
+  },
+  {
+    "n": 11,
+    "file": "11-Goya_Disparate-Other-Laws-for-the-People.jpg",
+    "current": {
+      "artist": "Francisco de Goya",
+      "title": "Disparate: Other Laws for the People"
+    },
+    "photo_matches": true,
+    "photo_check_note": "판면 왼쪽의 큰 코끼리, 오른쪽의 수염 난 동방풍 인물들 — Fundación 기술(인쇄본에서는 코끼리가 오른쪽)과 좌우 반전 관계로 일치",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl020576203",
+      "inv": "11441 C/ Recto",
+      "title_fr": "Disparate de bestia (Autres lois pour le peuple)",
+      "attribution_fr": "Goya y Lucientes, Francisco de (1746-1828), Ecole espagnole",
+      "date": "Vers 1815/1824",
+      "medium": "eau-forte; burin (Planche de cuivre gravée de la série \"Las Disparates\")",
+      "dimensions": "H. 0,24 m ; L. 0,35 m",
+      "location": "Centre de Conservation du Louvre (레코드상; room 공란)",
+      "acquisition": "don, 2011 — Achat de la Société des Amis du Louvre pour en faire donation à la Chalcographie du Louvre (Département des Arts graphiques, Chalcographie)"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "제목 유지 가능. 루브르 정식 표기는 'Disparate de bestia'(부제 Autres lois pour le peuple) — 병기 권장",
+    "meta_ko": [
+      [
+        "제작",
+        "1815–1824년경"
+      ],
+      [
+        "재료",
+        "동판(에칭·뷔랭)"
+      ],
+      [
+        "크기",
+        "24 × 35 cm"
+      ],
+      [
+        "소장번호",
+        "11441 C"
+      ],
+      [
+        "소장",
+        "루브르 그래픽아트부 Chalcographie"
+      ]
+    ],
+    "body_ko": [
+      "〈디스파라테스〉 연작의 한 장면을 새긴 동판 원판으로, 1877년 《L'Art》 판에는 'Otras leyes para el pueblo(백성을 위한 다른 법)'라는 제목이 붙었다. 거대한 코끼리 앞에 동방풍 옷차림의 수염 난 남자들이 방울 달린 마구와 큰 책을 내보이며 다가간다. 고야 연구 재단(Fundación Goya en Aragón)은 코끼리를 정치가들에게 속는 온순한 스페인 민중으로 읽는 해석을 소개한다.",
+      "〈디스파라테스〉(어리석음들)는 고야가 1815–1824년 무렵 제작한 판화 연작으로, 생전에는 출간되지 않았다. 동판 18점은 1864년 마드리드 왕립 산페르난도 아카데미가 〈Proverbios〉(속담)라는 제목으로 처음 찍어냈고, 따로 떨어져 있던 네 점은 화가 에우헤니오 루카스의 소유를 거쳐 프랑스로 건너가 1877년 파리 미술지 《L'Art》에 처음 실렸다. 이 네 장의 동판은 2011년 루브르 친구회(Société des Amis du Louvre)가 구입해 루브르 칼코그라피(판화 원판 컬렉션)에 기증했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl020576203",
+        "used_for": "루브르 공식 레코드: 제목·부제·소장번호·연대·기법·크기·위치·입수(JSON 레코드 직접 조회, 2026-10-19). 'Planche de cuivre gravée de la série \"Las Disparates\"' 문구와 'Ecole espagnole', Torres 2011 문헌은 HTML 페이지(WebFetch 요약)에서 확인"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Los_disparates",
+        "used_for": "연작 개요(1815–1824 추정), 1864년 아카데미 'Proverbios' 18점 출간, 네 동판이 Eugenio Lucas 소유였다가 프랑스로 건너가 1877년 L'Art에 게재, 2011년 7월 루브르 판화소묘부 입수"
+      },
+      {
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/disparate-de-bestia/1358",
+        "used_for": "L'Art 1877 캡션 'OTRAS LEYES PARA EL PUEBLO', 코끼리와 수염 난 동방풍 인물·방울 마구·책, 민중·정치가 해석(해석은 재단의 견해로 표기)"
+      },
+      {
+        "url": "https://philamuseum.org/collection/object/50548",
+        "used_for": "상충 정보(동판이 1870년에 재등장) — 검색 스니펫으로만 확인, 본문 미사용"
+      }
+    ],
+    "unverified": [
+      "전시실: 루브르 레코드는 'Centre de Conservation du Louvre'(보존센터, room 공란)로 표기하며 '정보가 최신이 아닐 수 있음'이라 명시. 사진은 전시 공간(유리창 앞 금속 거치대)에서 촬영되어 현재 전시 위치와 불일치 → 전시실 미기재. 실제 전시실 확인 필요",
+      "Société des Amis du Louvre의 구입 금액·판매처는 확인하지 않음"
+    ],
+    "conflicts": [
+      "제목: L'Art 캡션 스페인어 'OTRAS LEYES PARA EL PUEBLO'의 프랑스어 병기를 Fundación은 'Autres lois por le peuple'로 전사, 루브르 부제는 '(Autres lois pour le peuple)'",
+      "기법: 루브르 'eau-forte; burin'(에칭·뷔랭) vs Fundación Goya·Wikipedia '에칭·애쿼틴트·드라이포인트(burnished aquatint)'. meta_ko는 루브르 표기를 따름",
+      "크기: 루브르 동판 H 0,24 × L 0,35 m vs Fundación 인쇄본 판흔 245 × 350 mm(일부 247 × 359 mm). 동판과 판화 측정 대상이 달라 차이는 정상 범위로 추정",
+      "제작 연대: 루브르 '1815/1824년경' vs Fundación '1815–1819'",
+      "소유 경위: Fundación Goya 페이지(2023 개정)는 '동판은 파리 개인 소장'이라 기술 — 루브르 2011년 입수 기록과 불일치(갱신되지 않은 정보)",
+      "번호: Fundación 페이지는 Lázaro Galdiano 소장 시험쇄에 '22'와 'Timely folly' 범례가 있다고 하나, 같은 문구가 Disparate puntual 페이지에도 있어 복사 오류 가능성 — 확인 필요",
+      "네 동판의 경로: Wikipedia·Fundación Goya는 1856년 무렵 화가 Eugenio Lucas 소유로 기술, Philadelphia Museum of Art(검색 스니펫)는 '고야 사후 분리되어 1870년에야 다시 나타났다'고 기술 — 본문은 Lucas 소유설을 사용"
+    ]
+  },
+  {
+    "n": 12,
+    "file": "12-Goya_Disparate-Queen-of-the-Circus.jpg",
+    "current": {
+      "artist": "Francisco de Goya",
+      "title": "Disparate: A Queen of the Circus"
+    },
+    "photo_matches": true,
+    "photo_check_note": "줄 위에 선 말과 그 등에 선 여인, 배경의 군중 — Fundación 기술과 일치",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl020576205",
+      "inv": "11443 C/ Recto",
+      "title_fr": "Disparate puntual (une reine du cirque)",
+      "attribution_fr": "Goya y Lucientes, Francisco de (1746-1828), Ecole espagnole",
+      "date": "Vers 1815/1824",
+      "medium": "eau-forte; burin (Planche de cuivre gravée de la série \"Las Disparates\")",
+      "dimensions": "H. 0,24 m ; L. 0,35 m",
+      "location": "Centre de Conservation du Louvre (레코드상; room 공란)",
+      "acquisition": "don, 2011 — Achat de la Société des Amis du Louvre pour en faire donation à la Chalcographie du Louvre (Département des Arts graphiques, Chalcographie)"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "제목 유지 가능. 루브르 정식 표기는 'Disparate puntual'(부제 une reine du cirque) — 병기 권장",
+    "meta_ko": [
+      [
+        "제작",
+        "1815–1824년경"
+      ],
+      [
+        "재료",
+        "동판(에칭·뷔랭)"
+      ],
+      [
+        "크기",
+        "24 × 35 cm"
+      ],
+      [
+        "소장번호",
+        "11443 C"
+      ],
+      [
+        "소장",
+        "루브르 그래픽아트부 Chalcographie"
+      ]
+    ],
+    "body_ko": [
+      "〈디스파라테스〉 연작의 한 장면을 새긴 동판 원판으로, 1877년 《L'Art》 판에서는 'Una reina del circo(서커스의 여왕)'로 소개되었다. 젊은 여인이 줄 위에 선 말의 등에 꼿꼿이 서서 고삐를 쥐고 균형을 잡고, 어두운 배경 속 관중이 이를 지켜본다. 줄타기와 여성 곡마 곡예라는 두 가지 구경거리가 한 화면에 합쳐져 있다.",
+      "〈디스파라테스〉(어리석음들)는 고야가 1815–1824년 무렵 제작한 판화 연작으로, 생전에는 출간되지 않았다. 동판 18점은 1864년 마드리드 왕립 산페르난도 아카데미가 〈Proverbios〉(속담)라는 제목으로 처음 찍어냈고, 따로 떨어져 있던 네 점은 화가 에우헤니오 루카스의 소유를 거쳐 프랑스로 건너가 1877년 파리 미술지 《L'Art》에 처음 실렸다. 이 네 장의 동판은 2011년 루브르 친구회(Société des Amis du Louvre)가 구입해 루브르 칼코그라피(판화 원판 컬렉션)에 기증했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl020576205",
+        "used_for": "루브르 공식 레코드: 제목·부제·소장번호·연대·기법·크기·위치·입수(JSON 레코드 직접 조회, 2026-10-19). 'Planche de cuivre gravée de la série \"Las Disparates\"' 문구와 'Ecole espagnole', Torres 2011 문헌은 HTML 페이지(WebFetch 요약)에서 확인"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Los_disparates",
+        "used_for": "연작 개요(1815–1824 추정), 1864년 아카데미 'Proverbios' 18점 출간, 네 동판이 Eugenio Lucas 소유였다가 프랑스로 건너가 1877년 L'Art에 게재, 2011년 7월 루브르 판화소묘부 입수"
+      },
+      {
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/disparate-puntual/1357",
+        "used_for": "L'Art 1877 캡션 'UNA REINA DEL CIRCO', 말 위에 선 여인·줄·관중, 줄타기와 곡마의 결합"
+      },
+      {
+        "url": "https://philamuseum.org/collection/object/50548",
+        "used_for": "상충 정보(동판이 1870년에 재등장) — 검색 스니펫으로만 확인, 본문 미사용"
+      }
+    ],
+    "unverified": [
+      "전시실: 루브르 레코드는 'Centre de Conservation du Louvre'(보존센터, room 공란)로 표기하며 '정보가 최신이 아닐 수 있음'이라 명시. 사진은 전시 공간(유리창 앞 금속 거치대)에서 촬영되어 현재 전시 위치와 불일치 → 전시실 미기재. 실제 전시실 확인 필요",
+      "Société des Amis du Louvre의 구입 금액·판매처는 확인하지 않음"
+    ],
+    "conflicts": [
+      "기법: 루브르 'eau-forte; burin'(에칭·뷔랭) vs Fundación Goya·Wikipedia '에칭·애쿼틴트·드라이포인트(burnished aquatint)'. meta_ko는 루브르 표기를 따름",
+      "크기: 루브르 동판 H 0,24 × L 0,35 m vs Fundación 인쇄본 판흔 245 × 350 mm(일부 247 × 359 mm). 동판과 판화 측정 대상이 달라 차이는 정상 범위로 추정",
+      "제작 연대: 루브르 '1815/1824년경' vs Fundación '1815–1819'",
+      "소유 경위: Fundación Goya 페이지(2023 개정)는 '동판은 파리 개인 소장'이라 기술 — 루브르 2011년 입수 기록과 불일치(갱신되지 않은 정보)",
+      "번호: Fundación에 따르면 Lázaro Galdiano 시험쇄에 '12' 수기 번호와 'Timely folly' 범례. 1864년판 18점에는 미포함(Wikipedia). 영문 제목 'Punctual/Timely folly' 등 판본별 상이",
+      "네 동판의 경로: Wikipedia·Fundación Goya는 1856년 무렵 화가 Eugenio Lucas 소유로 기술, Philadelphia Museum of Art(검색 스니펫)는 '고야 사후 분리되어 1870년에야 다시 나타났다'고 기술 — 본문은 Lucas 소유설을 사용"
+    ]
+  },
+  {
+    "n": 13,
+    "file": "13-Goya_Disparate-What-a-Warrior.jpg",
+    "current": {
+      "artist": "Francisco de Goya",
+      "title": "Disparate: What a Warrior!"
+    },
+    "photo_matches": true,
+    "photo_check_note": "판면 왼쪽의 군도를 치켜든 망토 차림 형상과 오른쪽 그늘 속 군중 — Fundación 기술(인쇄본에서는 허수아비가 오른쪽)과 좌우 반전 관계로 일치. 허수아비가 2체인지는 사진 해상도로 판별 어려움",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl020576202",
+      "inv": "11440 C/ Recto",
+      "title_fr": "Disparate conocido (Quel guerrier!)",
+      "attribution_fr": "Goya y Lucientes, Francisco de (1746-1828), Ecole espagnole",
+      "date": "Vers 1815/1824",
+      "medium": "eau-forte; burin (Planche de cuivre gravée de la série \"Las Disparates\")",
+      "dimensions": "H. 0,24 m ; L. 0,35 m",
+      "location": "Centre de Conservation du Louvre (레코드상; room 공란)",
+      "acquisition": "don, 2011 — Achat de la Société des Amis du Louvre pour en faire donation à la Chalcographie du Louvre (Département des Arts graphiques, Chalcographie)"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "제목 유지 가능. 루브르 정식 표기는 'Disparate conocido'(부제 Quel guerrier!) — 병기 권장",
+    "meta_ko": [
+      [
+        "제작",
+        "1815–1824년경"
+      ],
+      [
+        "재료",
+        "동판(에칭·뷔랭)"
+      ],
+      [
+        "크기",
+        "24 × 35 cm"
+      ],
+      [
+        "소장번호",
+        "11440 C"
+      ],
+      [
+        "소장",
+        "루브르 그래픽아트부 Chalcographie"
+      ]
+    ],
+    "body_ko": [
+      "〈디스파라테스〉 연작의 한 장면을 새긴 동판 원판으로, 1877년 《L'Art》 판에서는 '¡Qué guerrero!(대단한 전사로군!)'라는 제목이 붙었다. 군인처럼 차려입고 나뭇가지에 군도를 묶어 든 허수아비들이 위협하듯 서 있고, 그 앞에서 밝게 비친 한 인물이 이들을 조롱하며, 나머지 군중은 그늘 속에 몸을 사린 채 지켜본다. 고야 연구 재단은 이를 나폴레옹 군 점령기의 기억과 연결해 해석한다.",
+      "〈디스파라테스〉(어리석음들)는 고야가 1815–1824년 무렵 제작한 판화 연작으로, 생전에는 출간되지 않았다. 동판 18점은 1864년 마드리드 왕립 산페르난도 아카데미가 〈Proverbios〉(속담)라는 제목으로 처음 찍어냈고, 따로 떨어져 있던 네 점은 화가 에우헤니오 루카스의 소유를 거쳐 프랑스로 건너가 1877년 파리 미술지 《L'Art》에 처음 실렸다. 이 네 장의 동판은 2011년 루브르 친구회(Société des Amis du Louvre)가 구입해 루브르 칼코그라피(판화 원판 컬렉션)에 기증했다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl020576202",
+        "used_for": "루브르 공식 레코드: 제목·부제·소장번호·연대·기법·크기·위치·입수(JSON 레코드 직접 조회, 2026-10-19). 'Planche de cuivre gravée de la série \"Las Disparates\"' 문구와 'Ecole espagnole', Torres 2011 문헌은 HTML 페이지(WebFetch 요약)에서 확인"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Los_disparates",
+        "used_for": "연작 개요(1815–1824 추정), 1864년 아카데미 'Proverbios' 18점 출간, 네 동판이 Eugenio Lucas 소유였다가 프랑스로 건너가 1877년 L'Art에 게재, 2011년 7월 루브르 판화소묘부 입수"
+      },
+      {
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/disparate-conocido/1356",
+        "used_for": "L'Art 1877 캡션 '¡QUE GUERRERO! / (Quel guerrier)', 군인 차림 허수아비·군도·조롱하는 인물·그늘 속 군중, 독립전쟁 기억 해석(재단 견해로 표기)"
+      },
+      {
+        "url": "https://www.mfa.org/collections/object/disparate-conocido-well-known-folly-plate-from-the-disparates-follies-series-published-in-lart-1877-94679",
+        "used_for": "'Disparate conocido (Well-known folly)'가 L'Art 1877 게재 네 점 중 하나임(검색 결과 제목 기준)"
+      },
+      {
+        "url": "https://philamuseum.org/collection/object/50548",
+        "used_for": "상충 정보(동판이 1870년에 재등장) — 검색 스니펫으로만 확인, 본문 미사용"
+      }
+    ],
+    "unverified": [
+      "전시실: 루브르 레코드는 'Centre de Conservation du Louvre'(보존센터, room 공란)로 표기하며 '정보가 최신이 아닐 수 있음'이라 명시. 사진은 전시 공간(유리창 앞 금속 거치대)에서 촬영되어 현재 전시 위치와 불일치 → 전시실 미기재. 실제 전시실 확인 필요",
+      "Société des Amis du Louvre의 구입 금액·판매처는 확인하지 않음"
+    ],
+    "conflicts": [
+      "기법: 루브르 'eau-forte; burin'(에칭·뷔랭) vs Fundación Goya·Wikipedia '에칭·애쿼틴트·드라이포인트(burnished aquatint)'. meta_ko는 루브르 표기를 따름",
+      "크기: 루브르 동판 H 0,24 × L 0,35 m vs Fundación 인쇄본 판흔 245 × 350 mm(일부 247 × 359 mm). 동판과 판화 측정 대상이 달라 차이는 정상 범위로 추정",
+      "제작 연대: 루브르 '1815/1824년경' vs Fundación '1815–1819'",
+      "소유 경위: Fundación Goya 페이지(2023 개정)는 '동판은 파리 개인 소장'이라 기술 — 루브르 2011년 입수 기록과 불일치(갱신되지 않은 정보)",
+      "번호: Fundación에 따르면 Lázaro Galdiano 시험쇄에 '20' 수기 번호와 'Known Folly' 범례",
+      "영문 제목: 'Well-known folly'(MFA) / 'Familiar folly'(Fundación) / 'What a warrior!'(L'Art 캡션)",
+      "네 동판의 경로: Wikipedia·Fundación Goya는 1856년 무렵 화가 Eugenio Lucas 소유로 기술, Philadelphia Museum of Art(검색 스니펫)는 '고야 사후 분리되어 1870년에야 다시 나타났다'고 기술 — 본문은 Lucas 소유설을 사용"
+    ]
+  },
+  {
+    "n": 14,
+    "file": "14-School-of-Gessi_Virgin-and-Child.jpg",
+    "current": {
+      "artist": "School of Francesco Gessi",
+      "title": "Virgin and Child"
+    },
+    "photo_matches": true,
+    "photo_check_note": "사각 금박 액자 안의 원형(tondo) 화면, 잠든 아기 예수를 무릎에 안은 성모 — 루브르 레코드 'Format : tondo'와 Commons 파일명 'Vierge à l'Enfant, Gessi (Louvre INV 523)'와 부합. 벽 라벨은 사진에 없음",
+    "louvre": {
+      "url": "https://collections.louvre.fr/ark:/53355/cl010061140",
+      "inv": "INV 523 (autre n° : MR 289)",
+      "title_fr": "La Vierge à l'Enfant",
+      "attribution_fr": "Gessi, Francesco (Bologne 1588 – Bologne 1649) — Attribution actuelle; Italie (École de) — 'École de'는 국가 화파 표기",
+      "date": "XVIIe siècle (1600 - 1700)",
+      "medium": "huile sur toile (Format : tondo)",
+      "dimensions": "H. 1,14 m ; L. 1,22 m (avec cadre : 1,52 × 1,51 m)",
+      "location": "Denon, [Peint] Salle 716 - Grande Galerie, Salle 716 - (4e travée) (Aile Denon, Niveau 1)",
+      "acquisition": "entrée - Collection de Louis XIV, 1670 — vendu par M. Oursel à Louis XIV en 1670; Versailles (Galerie 1695, Petite Galerie 1709-1710 et 1750, Surintendance 1760-1794); au Louvre août 1797; Musée Central des Arts dès 1798; déposé à Maisons-Laffitte 1912-1944 et 1948-1989"
+    },
+    "louvre_verified_directly": true,
+    "suggested_changes": "작가를 'School of Francesco Gessi' → 'Francesco Gessi'로 수정 권장. 루브르 JSON 레코드의 creator는 'Gessi, Francesco'(attributionLevel: Attribution actuelle, linkType 공란)이고, 'École de'는 별도 항목 'Italie'에 붙은 국가 화파 표기임(같은 방식으로 Goya 작품에도 'Espagne – École de'가 붙음). index.html note·README의 'École de Gessi' 설명도 수정 필요. 같은 오독이 06(École de Pellegrini)에도 있을 수 있으니 해당 담당자 확인 필요",
+    "meta_ko": [
+      [
+        "제작",
+        "17세기 (프랑스 국가 소장품 DB Joconde는 1624년경)"
+      ],
+      [
+        "재료",
+        "캔버스에 유채 (원형)"
+      ],
+      [
+        "크기",
+        "114 × 122 cm"
+      ],
+      [
+        "소장번호",
+        "INV 523"
+      ],
+      [
+        "전시실",
+        "드농관 716호실 (그랑 갤러리)"
+      ]
+    ],
+    "body_ko": [
+      "잠든 아기 예수를 무릎에 안은 성모를 원형 화면(톤도)에 담은 그림이다. 루브르는 현재 이 작품을 볼로냐 출신 화가 프란체스코 제시(1588–1649)의 작품으로 기록하고 있다. 원래 타원형이던 화면은 1754년 이전에 원형으로 고쳐졌다.",
+      "작가 귀속은 여러 차례 바뀌었다. 1749년 문헌에서는 귀도 레니의 작품으로 기록되었고, 20세기 후반에는 레니 전칭작, 레니 공방작, 시모네 칸타리니 작 등으로 견해가 엇갈렸다. 1991년 제시의 작품으로 분류되었으며, 현재 루브르와 프랑스 국가 소장품 데이터베이스(Joconde)는 제시 귀속을 가장 개연성 높은 견해로 본다.",
+      "1670년 우르셀(Oursel)이 루이 14세에게 판매하면서 왕실 컬렉션에 들어왔고, 베르사유궁에 걸려 있다가 1797년 루브르로 옮겨졌다. 20세기에는 1912–1944년과 1948–1989년 두 차례 메종라피트 성에 기탁되었다."
+    ],
+    "sources": [
+      {
+        "url": "https://collections.louvre.fr/ark:/53355/cl010061140",
+        "used_for": "루브르 공식 레코드: 현재 귀속(Gessi, Francesco; Attribution actuelle), 제목·연대·재료·tondo·크기·전시실·소장 이력(Oursel→Louis XIV 1670, 베르사유, 1797 루브르, Maisons-Laffitte 기탁), Reni 관련 문헌 목록 (JSON 레코드 .json 직접 조회, 2026-10-19)"
+      },
+      {
+        "url": "https://pop.culture.gouv.fr/notice/joconde/00000102950",
+        "used_for": "Joconde 국가 데이터베이스: 이전 귀속 이력(Reni—Antonini 1749; Reni 전칭 1971·1978; 'Reni 아님' Pepper 1984; Reni 1987; 공방 1988; Cantarini—Loire 1990; Gessi—Foucart-Walter 1991; Reni 원작 모사설 Constans 1995), '제시 귀속이 현재 가장 개연성 높음', 1624년경, 타원→원형 변경(1754년 이전), 지름 115 cm"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q18572412",
+        "used_for": "루브르 ark ID(010061140)·INV 523/MR 289 매핑, 작가 Francesco Gessi"
+      }
+    ],
+    "unverified": [
+      "제시와 레니의 사제 관계 등 작가 배경은 이번에 출처를 확보하지 않아 본문에서 제외",
+      "실제 전시 시점(기탁 종료 후 언제부터 716호실에 걸렸는지)은 확인하지 않음"
+    ],
+    "conflicts": [
+      "작가: README/index.html 'École de Gessi' vs 루브르 현행 'Gessi, Francesco'(직접 귀속)",
+      "제작 연대: 루브르 'XVIIe siècle (1600-1700)' vs Joconde '1624 vers' (meta_ko는 두 정보를 병기, '추정' 표기)",
+      "크기: 루브르 H 1,14 × L 1,22 m vs Joconde 'D. 115 (circulaire)'; 과거 측정 H 114 × l 89 (1683), H 116 × l 83 (1709-1710), D 119 (1754)",
+      "Wikidata 제작일 1624-01-17(정밀도 '세기')은 Joconde 1624년경과 동일 출처로 보임",
+      "1991년 Gessi 귀속 이후에도 Constans(1995)는 'Reni, d'après'(레니 원작에 따른 작품)로 분류 — Joconde 이전 귀속 목록"
+    ]
+  }
+]
