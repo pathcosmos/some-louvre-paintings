@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Some Louvre Paintings</title>
+<meta name="description" content="루브르 박물관에서 촬영한 회화 35점">
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --fg: #1d1b18;
+    --muted: #6b665d;
+    --card: #ffffff;
+    --line: #e2ddd3;
+    --accent: #8a6a2f;
+    --stage: #111;
+    --stage-fg: #f2efe8;
+    --stage-muted: #a59f94;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141311;
+      --fg: #ece8e0;
+      --muted: #9a948a;
+      --card: #1e1c19;
+      --line: #2e2b27;
+      --accent: #d0ac64;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  }
+  header {
+    padding: max(20px, env(safe-area-inset-top)) 16px 8px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+
+  /* 썸네일 그리드: 화면 폭에 따라 열 수 자동 조절 (세로 2열 ~ 가로 다열) */
+  .grid {
+    list-style: none;
+    margin: 0 auto;
+    padding: 12px 16px max(32px, env(safe-area-inset-bottom));
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+  }
+  @media (orientation: landscape) and (max-height: 500px) {
+    /* 휴대폰 가로: 세로 공간이 좁으므로 타일을 작게 해 한 화면에 더 많이 */
+    .grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+    header { padding-top: 12px; }
+  }
+  .grid button {
+    all: unset;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .grid button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .grid .thumb {
+    aspect-ratio: 1;
+    background: var(--line);
+  }
+  .grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .grid .cap { padding: 8px 10px 10px; }
+  .grid .t { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .grid .a { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .grid .n { color: var(--accent); font-variant-numeric: tabular-nums; margin-right: 4px; }
+
+  /* 상세 보기 */
+  .viewer {
+    position: fixed; inset: 0;
+    background: var(--stage);
+    color: var(--stage-fg);
+    display: none;
+    /* minmax(0, …): 이미지 원본 크기가 트랙을 밀어내 화면 밖으로 넘치는 것 방지 */
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    height: 100dvh;
+    z-index: 10;
+  }
+  .viewer.open { display: grid; }
+  .bar {
+    display: flex; align-items: center; gap: 8px;
+    padding: max(8px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) 8px max(12px, env(safe-area-inset-left));
+  }
+  .bar .count { font-variant-numeric: tabular-nums; color: var(--stage-muted); font-size: 13px; margin-right: auto; }
+  .btn {
+    all: unset;
+    cursor: pointer;
+    min-width: 40px; height: 40px;
+    display: inline-grid; place-items: center;
+    border-radius: 20px;
+    color: var(--stage-fg);
+    background: rgba(255,255,255,.08);
+    font-size: 18px;
+  }
+  .btn:hover { background: rgba(255,255,255,.16); }
+  .btn:focus-visible { outline: 2px solid #d0ac64; }
+  .btn.text { padding: 0 14px; font-size: 13px; }
+  .stage {
+    position: relative;
+    overflow: hidden;
+    min-width: 0; min-height: 0;
+    display: grid; place-items: center;
+    touch-action: pan-y pinch-zoom;
+  }
+  .stage img {
+    /* 회전 시 레이아웃 박스가 stage보다 커져도 중앙 유지되도록 절대 위치 + translate 로 정렬 */
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 100%; max-height: 100%;
+    object-fit: contain;
+    transition: transform .25s ease, opacity .2s ease;
+    user-select: none; -webkit-user-drag: none;
+  }
+  .stage img.loading { opacity: .3; }
+  .nav {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 48px; height: 48px; border-radius: 24px; font-size: 22px;
+    background: rgba(0,0,0,.5);
+    box-shadow: 0 0 0 1px rgba(255,255,255,.25);
+  }
+  .nav.prev { left: max(8px, env(safe-area-inset-left)); }
+  .nav.next { right: max(8px, env(safe-area-inset-right)); }
+  .info {
+    padding: 10px max(16px, env(safe-area-inset-right)) max(14px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  }
+  .info h2 { margin: 0; font-size: 17px; line-height: 1.3; }
+  .info .a { color: var(--stage-muted); font-size: 14px; margin-top: 2px; }
+  .info .note { color: var(--stage-muted); font-size: 12px; margin-top: 6px; }
+  .info .note:empty { display: none; }
+
+  /* 가로 화면: 정보 패널을 오른쪽으로 옮겨 그림 세로 공간 확보 */
+  @media (orientation: landscape) {
+    .viewer.open {
+      grid-template-columns: minmax(0, 1fr) minmax(220px, 28%);
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+    .bar { grid-column: 1 / -1; }
+    .info {
+      align-self: end;
+      padding-top: 0;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Some Louvre Paintings</h1>
+  <p>루브르 박물관에서 촬영한 회화 35점 · 썸네일을 눌러 상세 보기</p>
+</header>
+
+<ul class="grid" id="grid"></ul>
+
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="v-title">
+  <div class="bar">
+    <span class="count" id="v-count"></span>
+    <button class="btn" id="v-rotate" title="90° 회전 (R)" aria-label="90도 회전">⟳</button>
+    <a class="btn text" id="v-orig" target="_blank" rel="noopener" title="원본 해상도">원본</a>
+    <button class="btn" id="v-close" title="닫기 (Esc)" aria-label="닫기">✕</button>
+  </div>
+  <div class="stage" id="v-stage">
+    <img id="v-img" alt="">
+    <button class="btn nav prev" id="v-prev" title="이전 (←)" aria-label="이전 작품">‹</button>
+    <button class="btn nav next" id="v-next" title="다음 (→)" aria-label="다음 작품">›</button>
+  </div>
+  <div class="info">
+    <h2 id="v-title"></h2>
+    <div class="a" id="v-artist"></div>
+    <div class="note" id="v-note"></div>
+  </div>
+</div>
+
+<script>
+// 파일명은 jpg/rename_map.csv 의 new 컬럼과 동일해야 함 (thumbs/, web/, jpg/ 에 같은 이름으로 존재)
+const WORKS = [
+  ["01-Cimabue_Maesta.jpg", "Cimabue", "Maestà (Madonna and Child in Majesty Surrounded by Angels)"],
+  ["02-Leonardo-da-Vinci_Mona-Lisa-wide.jpg", "Leonardo da Vinci", "Mona Lisa", "전시 공간 전경"],
+  ["03-Leonardo-da-Vinci_Mona-Lisa-close.jpg", "Leonardo da Vinci", "Mona Lisa", "근접 촬영"],
+  ["04-Raphael-and-Giulio-Romano_Isabel-de-Requesens.jpg", "Raphael and Giulio Romano", "Portrait of Isabel de Requesens", "옛 통칭: Joanna of Aragon"],
+  ["05-Fetti_Guardian-Angel.jpg", "Domenico Fetti", "The Guardian Angel"],
+  ["06-School-of-Pellegrini_Diana-and-Endymion.jpg", "School of Giovanni Antonio Pellegrini", "Diana and Endymion", "루브르 표기: École de Pellegrini (RF 1964-2)"],
+  ["07-Carreno-de-Miranda-and-Rizi_Foundation-of-the-Trinitarian-Order.jpg", "Juan Carreño de Miranda and Francisco Rizi", "Mass for the Foundation of the Trinitarian Order"],
+  ["08-Goya_Young-Woman-with-Fan.jpg", "Francisco de Goya", "Young Woman with a Fan"],
+  ["09-Goya_Marquesa-de-Santa-Cruz.jpg", "Francisco de Goya", "Marquesa de Santa Cruz (Mariana Waldstein)"],
+  ["10-Goya_Disparate-Rain-of-Bulls.jpg", "Francisco de Goya", "Disparate: Rain of Bulls", "Disparates 동판 원판 (Chalcographie du Louvre)"],
+  ["11-Goya_Disparate-Other-Laws-for-the-People.jpg", "Francisco de Goya", "Disparate: Other Laws for the People", "Disparates 동판 원판 (Chalcographie du Louvre)"],
+  ["12-Goya_Disparate-Queen-of-the-Circus.jpg", "Francisco de Goya", "Disparate: A Queen of the Circus", "Disparates 동판 원판 (Chalcographie du Louvre)"],
+  ["13-Goya_Disparate-What-a-Warrior.jpg", "Francisco de Goya", "Disparate: What a Warrior!", "Disparates 동판 원판 (Chalcographie du Louvre)"],
+  ["14-School-of-Gessi_Virgin-and-Child.jpg", "School of Francesco Gessi", "Virgin and Child", "루브르 표기: École de Gessi (INV 523) · 오랫동안 Reni 작품으로 여겨짐"],
+  ["15-Reni_Union-of-Drawing-and-Colour.jpg", "Guido Reni", "The Union of Drawing and Colour"],
+  ["16-Raphael_Baldassare-Castiglione.jpg", "Raphael", "Portrait of Baldassare Castiglione"],
+  ["17-Raphael_Saint-Michael-Vanquishing-Satan.jpg", "Raphael", "Saint Michael Vanquishing Satan"],
+  ["18-Fra-Bartolomeo_Minerva.jpg", "Fra Bartolomeo", "Minerva", "작가 귀속이 여러 차례 바뀐 작품"],
+  ["19-Piero-della-Francesca_Sigismondo-Malatesta.jpg", "Piero della Francesca", "Portrait of Sigismondo Pandolfo Malatesta"],
+  ["20-David_Madame-Seriziat-and-Her-Son.jpg", "Jacques-Louis David", "Madame Sériziat and Her Son"],
+  ["21-Guerin_Return-of-Marcus-Sextus.jpg", "Pierre-Narcisse Guérin", "The Return of Marcus Sextus"],
+  ["22-Drouais_Marius-at-Minturnae.jpg", "Jean-Germain Drouais", "Marius at Minturnae"],
+  ["23-David_The-Sabine-Women.jpg", "Jacques-Louis David", "The Intervention of the Sabine Women"],
+  ["24-David_Coronation-of-Napoleon.jpg", "Jacques-Louis David", "The Coronation of Napoleon"],
+  ["25-Workshop-of-David_Death-of-Marat.jpg", "Workshop of Jacques-Louis David", "The Death of Marat", "공방 복제본 · 원작은 브뤼셀 벨기에 왕립미술관"],
+  ["26-David_Oath-of-the-Horatii.jpg", "Jacques-Louis David", "Oath of the Horatii"],
+  ["27-David_Madame-Recamier.jpg", "Jacques-Louis David", "Madame Récamier"],
+  ["28-Gerard_Marquise-Visconti.jpg", "François Gérard", "Portrait of the Marquise Visconti"],
+  ["29-Ingres_Mademoiselle-Caroline-Riviere.jpg", "Jean-Auguste-Dominique Ingres", "Mademoiselle Caroline Rivière"],
+  ["30-Guerin_Clytemnestra-Hesitating-before-Agamemnon.jpg", "Pierre-Narcisse Guérin", "Clytemnestra Hesitating before Killing the Sleeping Agamemnon"],
+  ["31-Girodet_Pygmalion-and-Galatea.jpg", "Anne-Louis Girodet", "Pygmalion and Galatea"],
+  ["32-Ingres_La-Grande-Odalisque.jpg", "Jean-Auguste-Dominique Ingres", "La Grande Odalisque"],
+  ["33-Delacroix_Liberty-Leading-the-People.jpg", "Eugène Delacroix", "Liberty Leading the People"],
+  ["34-Gerard_Daphnis-and-Chloe.jpg", "François Gérard", "Daphnis and Chloe"],
+  ["35-Delacroix_Death-of-Sardanapalus.jpg", "Eugène Delacroix", "The Death of Sardanapalus"],
+].map(([file, artist, title, note = ""], i) => ({ file, artist, title, note, n: i + 1 }));
+
+const $ = (id) => document.getElementById(id);
+const grid = $("grid"), viewer = $("viewer"), img = $("v-img"), stage = $("v-stage");
+let cur = -1, rot = 0, lastFocus = null;
+
+// 그리드 렌더링
+grid.innerHTML = WORKS.map((w, i) => `
+  <li><button data-i="${i}" aria-label="${w.n}. ${w.title} — ${w.artist}">
+    <div class="thumb"><img src="thumbs/${w.file}" alt="" loading="lazy" decoding="async"></div>
+    <div class="cap"><div class="t"><span class="n">${String(w.n).padStart(2, "0")}</span>${w.title}</div><div class="a">${w.artist}</div></div>
+  </button></li>`).join("");
+grid.addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-i]");
+  if (b) open(+b.dataset.i);
+});
+
+// 회전 시 90/270도면 가로세로가 바뀌므로 stage 크기를 기준으로 max 크기를 교차 적용
+function applyRotation() {
+  const quarter = ((rot % 360) + 360) % 360;
+  const swapped = quarter === 90 || quarter === 270;
+  img.style.transform = `translate(-50%, -50%) rotate(${rot}deg)`;
+  if (swapped) {
+    const r = stage.getBoundingClientRect();
+    img.style.maxWidth = r.height + "px";
+    img.style.maxHeight = r.width + "px";
+  } else {
+    img.style.maxWidth = img.style.maxHeight = "";
+  }
+}
+
+function show(i) {
+  cur = (i + WORKS.length) % WORKS.length;
+  const w = WORKS[cur];
+  rot = 0;
+  img.classList.add("loading");
+  img.onload = () => img.classList.remove("loading");
+  img.src = `web/${w.file}`;
+  img.alt = `${w.title} — ${w.artist}`;
+  applyRotation();
+  $("v-count").textContent = `${w.n} / ${WORKS.length}`;
+  $("v-title").textContent = w.title;
+  $("v-artist").textContent = w.artist;
+  $("v-note").textContent = w.note;
+  $("v-orig").href = `jpg/${w.file}`;
+  // 이웃 작품 미리 로드 → 다음/이전 이동 시 대기 감소
+  [cur - 1, cur + 1].forEach((j) => { new Image().src = `web/${WORKS[(j + WORKS.length) % WORKS.length].file}`; });
+  const hash = `#${w.n}`;
+  if (location.hash !== hash) history.replaceState(null, "", hash);
+}
+
+function open(i) {
+  lastFocus = document.activeElement;
+  // 상세 진입은 history에 한 단계 추가 → 모바일 뒤로가기로 닫기 가능
+  if (!viewer.classList.contains("open")) history.pushState({ viewer: true }, "", `#${WORKS[i].n}`);
+  viewer.classList.add("open");
+  document.body.style.overflow = "hidden";
+  show(i);
+  $("v-close").focus();
+}
+
+function close(fromPop = false) {
+  if (!viewer.classList.contains("open")) return;
+  viewer.classList.remove("open");
+  document.body.style.overflow = "";
+  img.removeAttribute("src");
+  if (!fromPop) {
+    if (history.state && history.state.viewer) history.back();
+    else history.replaceState(null, "", location.pathname + location.search);
+  }
+  const b = grid.querySelector(`button[data-i="${cur}"]`);
+  (b || lastFocus)?.focus();
+  b?.scrollIntoView({ block: "nearest" });
+}
+
+$("v-prev").onclick = () => show(cur - 1);
+$("v-next").onclick = () => show(cur + 1);
+$("v-close").onclick = () => close();
+$("v-rotate").onclick = () => { rot += 90; applyRotation(); };
+
+document.addEventListener("keydown", (e) => {
+  if (!viewer.classList.contains("open")) return;
+  if (e.key === "ArrowRight") show(cur + 1);
+  else if (e.key === "ArrowLeft") show(cur - 1);
+  else if (e.key === "Escape") close();
+  else if (e.key === "r" || e.key === "R") { rot += 90; applyRotation(); }
+});
+
+// 스와이프: 수평 이동이 충분하고 수직보다 클 때만 이전/다음 (핀치 줌 중에는 무시)
+let tx = 0, ty = 0, multi = false;
+stage.addEventListener("touchstart", (e) => {
+  multi = e.touches.length > 1;
+  tx = e.touches[0].clientX; ty = e.touches[0].clientY;
+}, { passive: true });
+stage.addEventListener("touchend", (e) => {
+  if (multi || (window.visualViewport && window.visualViewport.scale > 1.01)) return;
+  const dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) show(cur + (dx < 0 ? 1 : -1));
+}, { passive: true });
+
+// 기기 회전·창 크기 변경 시 회전 상태의 크기 재계산
+window.addEventListener("resize", () => { if (viewer.classList.contains("open")) applyRotation(); });
+
+window.addEventListener("popstate", () => {
+  const n = parseInt(location.hash.slice(1), 10);
+  if (n >= 1 && n <= WORKS.length) open(n - 1);
+  else close(true);
+});
+
+// #12 같은 주소로 바로 진입 시 해당 작품 상세 열기
+(() => {
+  const n = parseInt(location.hash.slice(1), 10);
+  if (n >= 1 && n <= WORKS.length) {
+    history.replaceState(null, "", location.pathname + location.search);
+    open(n - 1);
+  }
+})();
+</script>
+</body>
+</html>

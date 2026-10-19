@@ -2,7 +2,10 @@
 
 루브르 박물관에서 직접 촬영한 회화 사진 35장(iPhone 14 Plus).
 
+갤러리: https://pathcosmos.github.io/some-louvre-paintings/
+
 - `IMG_*.heic`: 원본 사진
+- `index.html`: 썸네일 갤러리 + 상세 보기 (`thumbs/` 480px, `web/` 1800px 사본 사용)
 - `jpg/`: JPG 변환본, `순번-작가_작품명.jpg` 형식으로 이름 변경
 - `jpg/rename_map.csv`: 원본 → 변경 파일명 매핑 (최종본)
 - `jpg/rename_map.before-correction.csv`, `jpg/rename_map.backup.csv`: 수정 이전 매핑 기록
