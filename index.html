@@ -206,8 +206,32 @@
     transition: transform .45s var(--ease), opacity .35s ease;
     user-select: none; -webkit-user-drag: none;
   }
+  .stage img { cursor: zoom-in; }
+  .stage img:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
   .stage img.out { opacity: 0; }
+  .image-modal {
+    position: fixed; inset: 0;
+    width: 100vw; height: 100dvh; max-width: none; max-height: none;
+    margin: 0; padding: 0; border: 0;
+    background: #080808; color: #fff;
+    overflow: hidden;
+  }
+  .image-modal::backdrop { background: #080808; }
+  .image-modal img {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(var(--rot, 0deg));
+    max-width: 100%; max-height: 100%;
+    cursor: zoom-out; user-select: none; -webkit-user-drag: none;
+  }
+  .image-modal .ic {
+    position: absolute;
+    top: max(12px, env(safe-area-inset-top));
+    right: max(12px, env(safe-area-inset-right));
+    width: 48px; height: 48px;
+    background: rgba(0,0,0,.7);
+  }
   .spinner {
+    pointer-events: none;
     position: absolute; top: 50%; left: 50%; width: 28px; height: 28px; margin: -14px;
     border: 2px solid rgba(255,255,255,.15); border-top-color: var(--v-fg); border-radius: 50%;
     animation: spin .8s linear infinite;
@@ -404,7 +428,7 @@
     </button>
   </div>
   <div class="stage" id="v-stage">
-    <img id="v-img" alt="">
+    <img id="v-img" alt="" role="button" tabindex="0" aria-label="그림 전체화면으로 보기" aria-haspopup="dialog" title="클릭하면 그림 전체화면 보기">
     <div class="spinner"></div>
     <button class="ic nav prev" id="v-prev" title="이전 (←)" aria-label="이전 작품">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
@@ -427,6 +451,13 @@
   </div>
   <div class="strip" id="v-strip" aria-label="작품 목록"></div>
 </div>
+
+<dialog class="image-modal" id="image-modal" aria-label="그림 전체화면 보기">
+  <img id="full-img" alt="" title="클릭하면 닫기">
+  <button class="ic" id="full-close" type="button" aria-label="전체화면 닫기" title="닫기 (Esc)" autofocus>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+</dialog>
 
 <script src="details.js"></script>
 <script>
@@ -602,7 +633,40 @@ function open(i) {
   $("v-close").focus({ preventScroll: true });
 }
 
+const imageModal = $("image-modal"), fullImg = $("full-img");
+function fitFullImage() {
+  const sideways = Math.abs(rot % 180) === 90;
+  fullImg.style.setProperty("--rot", `${rot}deg`);
+  fullImg.style.maxWidth = `${sideways ? imageModal.clientHeight : imageModal.clientWidth}px`;
+  fullImg.style.maxHeight = `${sideways ? imageModal.clientWidth : imageModal.clientHeight}px`;
+}
+function openFullImage() {
+  if (stage.classList.contains("loading") || !viewer.classList.contains("open")) return;
+  fullImg.src = img.src;
+  fullImg.alt = img.alt;
+  imageModal.showModal();
+  fitFullImage();
+}
+// 드래그·스와이프 후 발생하는 click은 확대 요청으로 취급하지 않음.
+let imagePointer = null;
+img.addEventListener("pointerdown", (e) => { imagePointer = { x: e.clientX, y: e.clientY }; });
+img.addEventListener("pointercancel", () => { imagePointer = null; });
+img.addEventListener("click", (e) => {
+  if (e.detail === 0 || (imagePointer && Math.hypot(e.clientX - imagePointer.x, e.clientY - imagePointer.y) < 10)) openFullImage();
+  imagePointer = null;
+});
+img.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openFullImage(); }
+});
+fullImg.onclick = () => imageModal.close();
+$("full-close").onclick = () => imageModal.close();
+imageModal.addEventListener("close", () => {
+  if (viewer.classList.contains("open")) img.focus({ preventScroll: true });
+});
+new ResizeObserver(() => { if (imageModal.open) fitFullImage(); }).observe(imageModal);
+
 function close(fromPop = false) {
+  if (imageModal.open) imageModal.close();
   if (!viewer.classList.contains("open")) return;
   viewer.classList.remove("open");
   viewer.setAttribute("aria-hidden", "true");
@@ -628,7 +692,7 @@ more.onclick = () => setDetail(!viewer.classList.contains("detail"));
 $("v-handle").onclick = () => setDetail(false);
 
 document.addEventListener("keydown", (e) => {
-  if (!viewer.classList.contains("open")) return;
+  if (!viewer.classList.contains("open") || imageModal.open) return;
   if (e.key === "ArrowRight") go(1);
   else if (e.key === "ArrowLeft") go(-1);
   // Esc: 설명이 열려 있으면 설명만 먼저 닫음
